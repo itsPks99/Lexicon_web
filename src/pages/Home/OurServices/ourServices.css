@@ -1,0 +1,145 @@
+.ourServices_section {
+    padding: 60px 0;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .ourServices_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .ourServices_sectionHeader {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .ourServices_sectionTitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #c41e1e;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .ourServices_cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .ourServices_card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+    display: block;
+  }
+  
+  .ourServices_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .ourServices_cardContent {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .ourServices_iconContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .ourServices_icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+  
+  .ourServices_cardTitle {
+    font-size: 22px;
+    font-weight: 700;
+    color: #c41e1e;
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+  
+  .ourServices_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ourServices_listItem {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .ourServices_listItem::before {
+    content: "•";
+    color: #c41e1e;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    line-height: 1;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 992px) {
+    .ourServices_cardsContainer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .ourServices_sectionTitle {
+      font-size: 32px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .ourServices_section {
+      padding: 40px 0;
+    }
+  
+    .ourServices_sectionTitle {
+      font-size: 28px;
+    }
+  
+    .ourServices_cardTitle {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .ourServices_cardsContainer {
+      grid-template-columns: 1fr;
+    }
+  
+    .ourServices_sectionTitle {
+      font-size: 24px;
+    }
+  
+    .ourServices_cardContent {
+      padding: 20px;
+    }
+  
+    .ourServices_icon {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  
