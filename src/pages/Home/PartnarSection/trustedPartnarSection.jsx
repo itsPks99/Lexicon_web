@@ -78,11 +78,11 @@ const TrustedPartnerSection = () => {
         <div className="trustedPartnar_header">
           <div className="trustedPartnar_titleContainer">
             <div className="trustedPartnar_titleBar"></div>
-            <h2 className="trustedPartnar_title">OUR TECH
+            <h2 className="trustedPartnar_title">SOME OF OUR TECH
               PARTNERSHIPS
             </h2>
           </div>
-          <p className="trustedPartnar_subtitle">SOME OF OUR CLIENTS WHO HAVE TRUSTED US.</p>
+          {/* <p className="trustedPartnar_subtitle">SOME OF OUR CLIENTS WHO HAVE TRUSTED US.</p> */}
         </div>
 
         <div className="trustedPartnar_partnersContainer">

@@ -223,9 +223,9 @@ const TrustedPartnerSection = () => {
         <div className="trustedClient_header">
           <div className="trustedClient_titleContainer">
             <div className="trustedClient_titleBar"></div>
-            <h2 className="trustedClient_title">OUR TRUSTED Clients </h2>
+            <h2 className="trustedClient_title"> SOME OF OUR TRUSTED Clients </h2>
           </div>
-          <p className="trustedClient_subtitle">SOME OF OUR CLIENTS WHO HAVE TRUSTED US.</p>
+          {/* <p className="trustedClient_subtitle">SOME OF OUR CLIENTS WHO HAVE TRUSTED US.</p> */}
         </div>
 
         <div className="trustedClient_partnersContainer">
