@@ -36,7 +36,7 @@ export default function HeroSection() {
     { 
       id: 4, 
       prefixColor: "#ff33ff", 
-      title: "Cloud & On-Site Data Solutions", 
+      title: "IT Smart Solutions", 
       description: "Our Cloud & On-Site Data Solutions provide secure, scalable data management systems. Combining cloud technology with on-premise setups, we ensure data availability, enhanced performance, and superior protection for seamless operations.",
       image: "/assets/hero_4.webp", 
       link: "/services/data-solutions" 
@@ -159,7 +159,7 @@ export default function HeroSection() {
           <div className="overlay"></div>
 
           <div className="content">
-            <h2 style={{ color: slide.prefixColor }}>We Provide the</h2>
+            {/* <h2 style={{ color: slide.prefixColor }}>We Provide the</h2> */}
             <h1 className="slide-title"></h1>
             <p className="slide-description">{slide.description}</p>
             <a href={slide.link} className="read-more-btn">Read More</a>

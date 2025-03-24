@@ -7,7 +7,6 @@ const services = [
   { name: "Open Source Technologies", icon: "/assets/big-data.png", link: "/services/open-source" },
   { name: "Modern Data Centre Solutions", icon: "/assets/big-data.png", link: "/services/data-centre" },
   { name: "Cyber Defence Centre", icon: "/assets/big-data.png", link: "/services/cyber-defence" },
-  { name: "Cyber Defence Centre", icon: "/assets/big-data.png", link: "/services/cyber-defence" },
 ];
 
 const ServicesSectionWithIcons = () => {

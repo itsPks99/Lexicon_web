@@ -1,6 +1,6 @@
 .hero-container {
     position: relative;
-    height: 60vh;
+    height: 62vh;
     width: 100%;
     overflow: hidden;
     background-color: black;
@@ -28,7 +28,7 @@
 .overlay {
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
 }
   
 .content {
@@ -55,8 +55,9 @@
 }
   
 .read-more-btn {
-    background-color: #2563eb;
-    color: white;
+    background-color:#f8f9fa;
+    color: black;
+   
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -64,7 +65,8 @@
 }
   
 .read-more-btn:hover {
-    background-color: #1d4ed8;
+    background-color: #4d70b5;
+    color: white;
 }
   
 .nav-arrow {

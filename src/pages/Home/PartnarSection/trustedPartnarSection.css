@@ -1,6 +1,6 @@
 .trustedPartnar_section {
     padding: 80px 0;
-    background-color: #ffffff;
+    background-color: #eef2f5;
     overflow: hidden;
     width: 100%;
   }
@@ -36,7 +36,7 @@
     font-size: 42px;
     font-weight: 700;
     margin: 0;
-    color: #000;
+    color: #4d70b5;
     text-transform: uppercase;
   }
   
@@ -85,8 +85,8 @@
   .trustedPartnar_logo {
     height: 60px;
     object-fit: contain;
-    filter: grayscale(100%);
-    opacity: 0.7;
+    /* filter: grayscale(100%);
+    opacity: 0.7; */
     transition: all 0.3s ease;
   }
   

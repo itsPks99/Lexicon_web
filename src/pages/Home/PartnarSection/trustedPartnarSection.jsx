@@ -12,14 +12,18 @@ const TrustedPartnerSection = () => {
 
   // Dummy partner data
   const partners = [
-    { id: 1, name: "Company One", logo: "/placeholder.svg?height=60&width=120", url: "https://example.com/1" },
-    { id: 2, name: "Company Two", logo: "/placeholder.svg?height=60&width=120", url: "https://example.com/2" },
-    { id: 3, name: "Company Three", logo: "/placeholder.svg?height=60&width=120", url: "https://example.com/3" },
-    { id: 4, name: "Company Four", logo: "/placeholder.svg?height=60&width=120", url: "https://example.com/4" },
-    { id: 5, name: "Company Five", logo: "/placeholder.svg?height=60&width=120", url: "https://example.com/5" },
-    { id: 6, name: "Company Six", logo: "/placeholder.svg?height=60&width=120", url: "https://example.com/6" },
-    { id: 7, name: "Company Seven", logo: "/placeholder.svg?height=60&width=120", url: "https://example.com/7" },
-    { id: 8, name: "Company Eight", logo: "/placeholder.svg?height=60&width=120", url: "https://example.com/8" },
+    { id: 1, name: "Company One", logo: "/assets/BrandsLogos/logo_1.png?height=60&width=120", url: "https://example.com/1" },
+    { id: 2, name: "Company Two", logo: "/assets/BrandsLogos/logo_2.png?height=60&width=120", url: "https://example.com/2" },
+    { id: 3, name: "Company Three", logo: "/assets/BrandsLogos/logo_3.png?height=60&width=120", url: "https://example.com/3" },
+    { id: 4, name: "Company Four", logo: "/assets/BrandsLogos/logo_4.png?height=60&width=120", url: "https://example.com/4" },
+    { id: 5, name: "Company Five", logo: "/assets/BrandsLogos/logo_5.png?height=60&width=120", url: "https://example.com/5" },
+    { id: 6, name: "Company Six", logo: "/assets/BrandsLogos/logo_6.png?height=60&width=120", url: "https://example.com/6" },
+    { id: 7, name: "Company Seven", logo: "/assets/BrandsLogos/logo_7.png?height=60&width=120", url: "https://example.com/7" },
+    { id: 8, name: "Company Eight", logo: "/assets/BrandsLogos/logo_8.png?height=60&width=120", url: "https://example.com/8" },
+    { id: 9, name: "Company Nine", logo: "/assets/BrandsLogos/logo_9.png?height=60&width=120", url: "https://example.com/7" },
+    { id: 10, name: "Company Ten", logo: "/assets/BrandsLogos/logo_10.png?height=60&width=120", url: "https://example.com/8" },
+
+    
   ]
 
   // Duplicate the partners array to create a seamless loop
@@ -40,7 +44,7 @@ const TrustedPartnerSection = () => {
     // First row animation (right to left)
     row1Animation.current = gsap.to(row1Ref.current, {
       x: "-50%",
-      duration: 25,
+      duration: 20,
       ease: "none",
       repeat: -1,
       paused: false,
@@ -49,7 +53,7 @@ const TrustedPartnerSection = () => {
     // Second row animation (left to right)
     row2Animation.current = gsap.to(row2Ref.current, {
       x: "50%",
-      duration: 25,
+      duration: 20,
       ease: "none",
       repeat: -1,
       paused: false,
@@ -74,7 +78,9 @@ const TrustedPartnerSection = () => {
         <div className="trustedPartnar_header">
           <div className="trustedPartnar_titleContainer">
             <div className="trustedPartnar_titleBar"></div>
-            <h2 className="trustedPartnar_title">THEY TRUST US</h2>
+            <h2 className="trustedPartnar_title">OUR TECH
+              PARTNERSHIPS
+            </h2>
           </div>
           <p className="trustedPartnar_subtitle">SOME OF OUR CLIENTS WHO HAVE TRUSTED US.</p>
         </div>

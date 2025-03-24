@@ -1,7 +1,7 @@
 /* General Styles */
 .services-section {
-    padding: 60px 20px;
-    background-color: #f5f5f5;
+    padding: 78px 20px;
+    background-color : #f5f5f5;
     position: relative;
 }
 
@@ -19,7 +19,7 @@
     position: relative;
     width: 180px;
     height: 180px;
-    background-color: white;
+    background-color: #4d70b5;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -27,26 +27,27 @@
     justify-content: flex-end;
     padding: 20px;
     text-decoration: none;
-    color: black;
+    color: white;
     /* box-shadow: 0 4px 8px rgba(236, 94, 94, 0.1); */
-    box-shadow: 6px 8px 18px rgba(245, 118, 175, 0.868);
+    box-shadow: 0px 5px 12px #4d70b5;
     transition: transform 0.3s, box-shadow 0.5s;
 }
 
 .service-card:hover {
     
-    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: scale 0.4s;
 
 }
 
 /* Icons */
 .icon-circle {
     position: absolute;
-    top: -50px;
+    top: 0px;
     width: 100px;
     height: 100px;
-    background-color: #E31837;
-    border-radius: 50%;
+    /* background-color: #4d70b5; */
+    /* border-radius: 50%; */
     display: flex;
     align-items: center;
     justify-content: center;

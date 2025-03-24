@@ -1,128 +1,121 @@
+import { useEffect, useRef } from "react"
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
 import "./ourServices.css"
 
+// // Import images
+// import itIntegratedImg from "./images/it-integrated.jpg"
+// import smartInfraImg from "./images/smart-infrastructure.jpg"
+// import itEnabledImg from "./images/it-enabled.jpg"
+// import cloudDataImg from "./images/cloud-data.jpg"
+// import securityImg from "./images/security.jpg"
+// import softwareImg from "./images/software.jpg"
+
+gsap.registerPlugin(ScrollTrigger)
+
 const OurServices = () => {
-  // Service data for the first row - Our Solutions
-  const solutionsData = [
+  const servicesRef = useRef(null)
+  const titleRefs = useRef([])
+
+  // Reset refs array
+  titleRefs.current = []
+
+  // Add to refs array
+  const addToRefs = (el) => {
+    if (el && !titleRefs.current.includes(el)) {
+      titleRefs.current.push(el)
+    }
+  }
+
+  useEffect(() => {
+    // Animate each title when its section comes into view
+    titleRefs.current.forEach((title, index) => {
+      gsap.fromTo(
+        title,
+        {
+          y: 50,
+          opacity: 0,
+        },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.8,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: title,
+            start: "top 80%",
+            toggleActions: "play none none none",
+          },
+          delay: 0.2 * index,
+        },
+      )
+    })
+  }, [])
+
+  const services = [
     {
       id: 1,
-      title: "Cyber Security",
-      icon: "/icons/cyber-security.svg",
-      items: [
-        "SSL SASE Anti APT ZNTA",
-        "Next Generation Firewall",
-        "NGIS HIPS",
-        "WAF",
-        "DDAN",
-        "ADC",
-        "Specialized Security for Virtual Infrastructure",
-        "D-DoS Security solutions and Intrusion Prevention Systems",
-      ],
-      url: "/services/cyber-security",
+      name: "IT Integrated Solutions",
+      image: "/images/it-integrated.jpg",
+      description:
+        "Comprehensive IT solutions that seamlessly integrate various systems and technologies to optimize your business operations and enhance productivity.",
     },
     {
       id: 2,
-      title: "Cloud Solutions",
-      icon: "/icons/cloud-solutions.svg",
-      items: ["Public Cloud", "Cloud Security", "Infrastructure As A Service (IaaS)", "Platform As A Service (PaaS)"],
-      url: "/services/cloud-solutions",
+      name: "Smart IT Infrastructure",
+      image: "/images/it-integrated.jpg",
+      description:
+        "Intelligent infrastructure solutions designed to provide a robust foundation for your digital transformation journey with scalability and flexibility.",
     },
     {
       id: 3,
-      title: "Open Source Technology",
-      icon: "/icons/open-source.svg",
-      items: [
-        "Enterprise Linux Operating System Platforms",
-        "In-memory Caching Databases and noSQL Databases",
-        "Enterprise Middleware",
-      ],
-      url: "/services/open-source",
+      name: "IT Enabled Services",
+      image: "/images/it-integrated.jpg",
+      description:
+        "Leverage technology to streamline your business processes, improve efficiency, and deliver exceptional customer experiences through our IT enabled services.",
     },
-  ]
-
-  // Service data for the second row - Modern Data Centre Solutions
-  const dataCentreData = [
     {
       id: 4,
-      title: "Data Protection",
-      icon: "/icons/data-protection.svg",
-      items: [
-        "Appliance with Built-in Storage and Data Protection Software",
-        "Archiving Solutions",
-        "Backup & Receovery Solutions",
-        "Encryption",
-        "Dataloss Prevention",
-      ],
-      url: "/services/data-protection",
+      name: "Cloud & On-Site Data Solutions",
+      image: "/images/it-integrated.jpg",
+      description:
+        "Secure and efficient data management solutions both in the cloud and on-premises, ensuring your data is always accessible, protected, and optimized.",
     },
     {
       id: 5,
-      title: "Virtualization & HCI",
-      icon: "/icons/virtualization.svg",
-      items: [
-        "Server Virtualization",
-        "Modern Data Center",
-        "Digital Workspace",
-        "HCI - Hybrid Cloud",
-        "Private Cloud",
-        "Mobility Management",
-        "Application Modernization",
-        "Intrinsic Security",
-      ],
-      url: "/services/virtualization",
+      name: "Advanced Security Solutions",
+      image: "/images/it-integrated.jpg",
+      description:
+        "Cutting-edge security systems and protocols to protect your digital assets from evolving threats and ensure business continuity and compliance.",
     },
     {
       id: 6,
-      title: "Core Infrastructure",
-      icon: "/icons/core-infrastructure.svg",
-      items: [
-        "Servers and Storage",
-        "Data Center Networks",
-        "WAN Networks",
-        "Mobility Solutions",
-        "Wi-fi Networks",
-        "End Points",
-      ],
-      url: "/services/core-infrastructure",
+      name: "Software Services",
+      image: "/images/it-integrated.jpg",
+      description:
+        "Custom software development and implementation services tailored to your unique business requirements, from web applications to enterprise solutions.",
     },
   ]
 
-  // Function to render a service card
-  const renderServiceCard = (service) => (
-    <a href={service.url} className="ourServices_card" key={service.id}>
-      <div className="ourServices_cardContent">
-        <div className="ourServices_iconContainer">
-          <img src={service.icon || "/placeholder.svg"} alt={service.title} className="ourServices_icon" />
-        </div>
-        <h3 className="ourServices_cardTitle">{service.title}</h3>
-        <ul className="ourServices_list">
-          {service.items.map((item, index) => (
-            <li key={index} className="ourServices_listItem">
-              {item}
-            </li>
-          ))}
-        </ul>
-      </div>
-    </a>
-  )
-
   return (
-    <section className="ourServices_section">
-      <div className="ourServices_container">
-        {/* Our Solutions Section */}
-        <div className="ourServices_sectionHeader">
-          <h2 className="ourServices_sectionTitle">Our Solutions</h2>
-        </div>
-
-        <div className="ourServices_cardsContainer">{solutionsData.map((service) => renderServiceCard(service))}</div>
-
-        {/* Modern Data Centre Solutions Section */}
-        <div className="ourServices_sectionHeader">
-          <h2 className="ourServices_sectionTitle">Modern Data Centre Solutions</h2>
-        </div>
-
-        <div className="ourServices_cardsContainer">{dataCentreData.map((service) => renderServiceCard(service))}</div>
+    <div className="services-container" ref={servicesRef}>
+      <h2 className="services-main-title">Our Services</h2>
+      <div className="services-grid">
+        {services.map((service) => (
+          <div className="service-item" key={service.id}>
+            <div className="service-image-container">
+              <img src={service.image || "/placeholder.svg"} alt={service.name} className="service-image" />
+            </div>
+            <div className="service-content">
+              <h3 className="service-title" ref={addToRefs}>
+                {service.name}
+              </h3>
+              <p className="service-description">{service.description}</p>
+            </div>
+          </div>
+        ))}
       </div>
-    </section>
+    </div>
   )
 }
 
