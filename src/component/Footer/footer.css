@@ -1,6 +1,6 @@
 /* footer.css */
 .footer-section {
-    background-color: #111;
+    background-color: black;
     padding: 40px 20px;
     color: white;
     text-align: center;
@@ -27,7 +27,7 @@
   .footer-bottom a,
   .request-demo {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
     transition: color 0.3s;
     cursor: pointer;
     
@@ -44,11 +44,11 @@
   .footer-menu a:hover,
   .footer-bottom a:hover,
   .request-demo:hover {
-    color: #007bff;
+    color: #4d70b5;
   }
   
   .footer-bottom {
-    border-top: 1px solid #444;
+    border-top: 0.5px solid #4d70b5;
     padding-top: 10px;
     margin-top: 10px;
     font-size: 0.9rem;
@@ -72,7 +72,7 @@
   }
   
   .scroll-to-top:hover {
-    background-color: #007bff;
+    background-color: #4d70b5;
   }
   
   /* Popup Styles */
@@ -86,7 +86,7 @@
     width: 90%;
     max-width: 500px;
     z-index: 2000;
-    color: #2f97f7;
+    color: #4d70b5;
   }
   
   .close-button {
@@ -114,13 +114,15 @@
   }
   
   .popup-content form button {
-    background-color: #007bff;
+    
+    background-color: #4d70b5;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
   }
   
   .popup-content form button:hover {
-    background-color: #0056b3;
+    background-color:#7a9ada;
+    color: black;
   }
   

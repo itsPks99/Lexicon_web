@@ -51,12 +51,12 @@ const Footer = () => {
       <footer className="footer-section">
         <div className="footer-container">
           <div className="footer-item">
-            <Phone color="#00FFB2" size={30} /> 
+            <Phone color="#4d70b5" size={30} /> 
             <a href="tel:+919769878878">+91-02249700111</a>
           </div>
           
           <div className="footer-item">
-            <Mail color="#C511FB" size={30} />
+            <Mail color="#4d70b5" size={30} />
             <div>
               <p>www.lexiconindia.com</p>
               <p>info@lexiconindia.com</p>
@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-item">
-            <User color="#F25C05" size={30} />
+            <User color="#4d70b5" size={30} />
             <div>
               <p>Lexicon Computers Pvt. Ltd.</p>
               <p> 24, Papa Industrial Estate,</p> 
@@ -77,7 +77,7 @@ const Footer = () => {
 
         <div className="footer-menu">
           <a href="#">Home</a>
-          <a href="#">About Us</a>
+          <a href="/about">About Us</a>
           <a href="#">Services</a>
           <a href="#">Contact</a>
         </div>
@@ -93,7 +93,7 @@ const Footer = () => {
 
         {showScrollTop && (
           <div className="scroll-to-top" onClick={scrollToTop}>
-            <div className="progress-circle" style={{ background: `conic-gradient(#007bff ${scrollProgress}%, transparent 0)` }}>
+            <div className="progress-circle" style={{ background: `conic-gradient(white ${scrollProgress}%, transparent 0)` }}>
               <span className="arrow">⬆️</span>
             </div>
           </div>

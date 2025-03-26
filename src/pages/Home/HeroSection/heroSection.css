@@ -39,6 +39,7 @@
     z-index: 3;
     text-align: center;
     color: white;
+    letter-spacing: 0.3px;
 }
   
 .slide-title {
@@ -49,7 +50,7 @@
 /* Description Paragraph Styling */
 .slide-description {
     font-size: 1.2rem;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     max-width: 800px;
     line-height: 1.5;
 }
@@ -57,7 +58,6 @@
 .read-more-btn {
     background-color:#f8f9fa;
     color: black;
-   
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;

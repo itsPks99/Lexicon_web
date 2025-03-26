@@ -67,7 +67,7 @@ const ConnectWithUs = () => {
             <input type="tel" placeholder="Phone" className="connect-input" />
           </div>
           <textarea placeholder="Message" className="connect-textarea"></textarea>
-          <button type="submit" className="connect-button">SEND</button>
+          <button type="submit" className="connect-button">Send</button>
         </form>
       </div>
     </section>

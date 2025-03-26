@@ -1,12 +1,14 @@
 import React from 'react';
 import './ServicesSectionWithIcons.css';
+import { Network, Server, Shield, Cog, PenTool, Speaker } from 'lucide-react';
 
 const services = [
-  { name: "Cyber Security", icon: "/assets/big-data.png", link: "/services/cyber-security" },
-  { name: "Cloud Solutions", icon: "/assets/big-data.png", link: "/services/cloud-solutions" },
-  { name: "Open Source Technologies", icon: "/assets/big-data.png", link: "/services/open-source" },
-  { name: "Modern Data Centre Solutions", icon: "/assets/big-data.png", link: "/services/data-centre" },
-  { name: "Cyber Defence Centre", icon: "/assets/big-data.png", link: "/services/cyber-defence" },
+  { name: "Networking Solutions", icon: <Network size={40} color="white" />, link: "/services/networking" },
+  { name: "IT Infrastructure Services", icon: <Server size={40} color="white" />, link: "/services/infrastructure" },
+  { name: "Security System", icon: <Shield size={40} color="white" />, link: "/services/security" },
+  { name: "IT Integrate Solution", icon: <Cog size={40} color="white" />, link: "/services/integration" },
+  { name: "AMC & Facility Management", icon: <PenTool size={40} color="white" />, link: "/services/amc" },
+  { name: "Audio and Video Solution", icon: <Speaker size={40} color="white" />, link: "/services/av" }
 ];
 
 const ServicesSectionWithIcons = () => {
@@ -16,7 +18,7 @@ const ServicesSectionWithIcons = () => {
         {services.map((service, index) => (
           <a href={service.link} key={index} className="service-card">
             <div className="icon-circle">
-              <img src={service.icon} alt={service.name} />
+              {service.icon} {/* Render the icon directly here */}
             </div>
             <h3>{service.name}</h3>
           </a>

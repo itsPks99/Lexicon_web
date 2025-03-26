@@ -1,182 +1,196 @@
-.trustedPartnar_section {
-    padding: 80px 0;
-    background-color: #eef2f5;
-    overflow: hidden;
-    width: 100%;
+.trustedClient_section {
+  padding: 80px 0;
+  background-color: #eef2f5;
+  overflow: hidden;
+  width: 100%;
+}
+
+.trustedClient_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.trustedClient_header {
+  text-align: center;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.trustedClient_titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.trustedClient_titleBar {
+  width: 4px;
+  height: 40px;
+  background-color: #0066cc;
+  margin-right: 15px;
+}
+
+.trustedClient_title {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  color: #4d70b5;
+  text-transform: uppercase;
+}
+
+.trustedClient_subtitle {
+  font-size: 18px;
+  color: #0066cc;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.trustedClient_partnersContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.trustedClient_row {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.trustedClient_row:last-child {
+  margin-bottom: 0;
+}
+
+.trustedClient_track {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: fit-content;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+.trustedClient_logoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  transition: transform 0.3s ease;
+}
+
+.trustedClient_logoWrapper:hover {
+  transform: scale(1.1);
+}
+
+.trustedClient_logo {
+  height: 60px;
+  object-fit: contain;
+  width: 100px;
+  border: 1px solid #2f568f;
+  background-color: white;
+  /* filter: grayscale(100%);
+  opacity: 0.7; */
+  transition: all 0.3s ease;
+}
+
+.trustedClient_logo:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .trustedClient_container {
+    max-width: 100%;
+    padding: 0 15px;
   }
-  
-  .trustedPartnar_container {
-    max-width: 1200px;
-    margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .trustedClient_title {
+    font-size: 36px;
+  }
+
+  .trustedClient_subtitle {
+    font-size: 16px;
+  }
+
+  .trustedClient_logoWrapper {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .trustedClient_section {
+    padding: 60px 0;
+  }
+
+  .trustedClient_title {
+    font-size: 32px;
+  }
+
+  .trustedClient_subtitle {
+    font-size: 15px;
+  }
+
+  .trustedClient_logo {
+    height: 50px;
+    width: 90px;
+  }
+
+  .trustedClient_logoWrapper {
     padding: 0 20px;
-    width: 100%;
   }
-  
-  .trustedPartnar_header {
-    text-align: center;
-    margin-bottom: 60px;
-    width: 100%;
+}
+
+@media (max-width: 576px) {
+  .trustedClient_section {
+    padding: 40px 0;
   }
-  
-  .trustedPartnar_titleContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 15px;
+
+  .trustedClient_title {
+    font-size: 28px;
   }
-  
-  .trustedPartnar_titleBar {
-    width: 4px;
+
+  .trustedClient_subtitle {
+    font-size: 14px;
+  }
+
+  .trustedClient_titleBar {
+    height: 30px;
+  }
+
+  .trustedClient_logo {
     height: 40px;
-    background-color: #0066cc;
-    margin-right: 15px;
+    width: 80px;
   }
-  
-  .trustedPartnar_title {
-    font-size: 42px;
-    font-weight: 700;
-    margin: 0;
-    color: #4d70b5;
-    text-transform: uppercase;
+
+  .trustedClient_logoWrapper {
+    padding: 0 15px;
   }
-  
-  .trustedPartnar_subtitle {
-    font-size: 18px;
-    color: #0066cc;
-    margin: 0;
-    text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+  .trustedClient_title {
+    font-size: 24px;
   }
-  
-  .trustedPartnar_partnersContainer {
-    width: 100%;
-    overflow: hidden;
+
+  .trustedClient_subtitle {
+    font-size: 12px;
   }
-  
-  .trustedPartnar_row {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 40px;
+
+  .trustedClient_logo {
+    height: 35px;
+    width: 70px;
   }
-  
-  .trustedPartnar_row:last-child {
-    margin-bottom: 0;
+
+  .trustedClient_logoWrapper {
+    padding: 0 10px;
   }
-  
-  .trustedPartnar_track {
-    display: flex;
-    align-items: center;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .trustedPartnar_logoWrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 30px;
-    transition: transform 0.3s ease;
-  }
-  
-  .trustedPartnar_logoWrapper:hover {
-    transform: scale(1.1);
-  }
-  
-  .trustedPartnar_logo {
-    height: 60px;
-    object-fit: contain;
-    /* filter: grayscale(100%);
-    opacity: 0.7; */
-    transition: all 0.3s ease;
-  }
-  
-  .trustedPartnar_logo:hover {
-    filter: grayscale(0%);
-    opacity: 1;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 1200px) {
-    .trustedPartnar_container {
-      max-width: 100%;
-      padding: 0 15px;
-    }
-  }
-  
-  @media (max-width: 992px) {
-    .trustedPartnar_title {
-      font-size: 36px;
-    }
-  
-    .trustedPartnar_subtitle {
-      font-size: 16px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .trustedPartnar_section {
-      padding: 60px 0;
-    }
-  
-    .trustedPartnar_title {
-      font-size: 32px;
-    }
-  
-    .trustedPartnar_subtitle {
-      font-size: 15px;
-    }
-  
-    .trustedPartnar_logo {
-      height: 50px;
-    }
-  
-    .trustedPartnar_logoWrapper {
-      padding: 0 20px;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .trustedPartnar_section {
-      padding: 40px 0;
-    }
-  
-    .trustedPartnar_title {
-      font-size: 28px;
-    }
-  
-    .trustedPartnar_subtitle {
-      font-size: 14px;
-    }
-  
-    .trustedPartnar_titleBar {
-      height: 30px;
-    }
-  
-    .trustedPartnar_logo {
-      height: 40px;
-    }
-  
-    .trustedPartnar_logoWrapper {
-      padding: 0 15px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .trustedPartnar_title {
-      font-size: 24px;
-    }
-  
-    .trustedPartnar_subtitle {
-      font-size: 12px;
-    }
-  
-    .trustedPartnar_logo {
-      height: 35px;
-    }
-  
-    .trustedPartnar_logoWrapper {
-      padding: 0 10px;
-    }
-  }
-  
-  
+}
+

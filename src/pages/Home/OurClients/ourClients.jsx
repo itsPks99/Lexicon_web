@@ -5,8 +5,8 @@ import "./ourClients.css"
 const TrustedPartnerSection = () => {
   const row1Ref = useRef(null)
   const row2Ref = useRef(null)
-  const row1Animation = useRef(null)
   const row2Animation = useRef(null)
+  const row1Animation = useRef(null)
   const [isMobile, setIsMobile] = useState(false)
   const [isTablet, setIsTablet] = useState(false)
 
@@ -15,7 +15,7 @@ const TrustedPartnerSection = () => {
     {
       id: 1,
       name: "Company One",
-      logo: "/assets/BrandsLogos/logo_1.png?height=60&width=120",
+      logo: "/assets/BrandsLogos/cisco.png?height=60&width=120",
       url: "https://example.com/1",
     },
     {

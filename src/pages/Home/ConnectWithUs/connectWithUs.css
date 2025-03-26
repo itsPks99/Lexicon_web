@@ -26,7 +26,7 @@
   
   .connect-description {
     font-size: 1.5rem;
-    color: #007bff;
+    color: #4d70b5;
     margin-bottom: 30px;
   }
   
@@ -60,7 +60,7 @@
   
   .connect-input:focus,
   .connect-textarea:focus {
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #4d70b5;
   }
   
   .connect-textarea {
@@ -70,8 +70,8 @@
   }
   
   .connect-button {
-    background-color: #007bff;
-    color: white;
+    background-color:#f8f9fa;
+    color: black;
     border: none;
     padding: 10px 40px;
     border-radius: 50px;
@@ -81,7 +81,8 @@
   }
   
   .connect-button:hover {
-    background-color: #0056b3;
+    background-color: #4d70b5;
+    color: white;
   }
   
   @media (max-width: 768px) {

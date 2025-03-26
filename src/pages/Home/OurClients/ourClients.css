@@ -90,6 +90,9 @@
 .trustedClient_logo {
   height: 60px;
   object-fit: contain;
+  width: 100px;
+  border: 1px solid #2f568f;
+  background-color: white !important;
   /* filter: grayscale(100%);
   opacity: 0.7; */
   transition: all 0.3s ease;
@@ -137,6 +140,7 @@
 
   .trustedClient_logo {
     height: 50px;
+    width: 90px;
   }
 
   .trustedClient_logoWrapper {
@@ -163,6 +167,7 @@
 
   .trustedClient_logo {
     height: 40px;
+    width: 80px;
   }
 
   .trustedClient_logoWrapper {
@@ -181,6 +186,7 @@
 
   .trustedClient_logo {
     height: 35px;
+    width: 70px;
   }
 
   .trustedClient_logoWrapper {

@@ -1,18 +1,18 @@
-.services-container {
+.whatWeOffers-container {
     padding: 4rem 2rem;
     max-width: 1400px;
     margin: 0 auto;
   }
   
-  .services-main-title {
+  .whatWeOffers-main-title {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #333;
+    color: #4d70b5;
     position: relative;
   }
   
-  .services-main-title:after {
+  .whatWeOffers-main-title:after {
     content: "";
     position: absolute;
     bottom: -15px;
@@ -20,16 +20,16 @@
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, #ff6b6b, #ff8e53);
+    background: linear-gradient(90deg, #4d70b5, #4d70b5);
   }
   
-  .services-grid {
+  .whatWeOffers-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 3rem;
   }
   
-  .service-item {
+  .whatWeOffer-item {
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -39,53 +39,53 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  .service-item:hover {
+  .whatWeOffer-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
   }
   
-  .service-image-container {
+  .whatWeOffer-image-container {
     height: 250px;
     overflow: hidden;
   }
   
-  .service-image {
+  .whatWeOffer-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
   
-  .service-item:hover .service-image {
+  .whatWeOffer-item:hover .whatWeOffer-image {
     transform: scale(1.05);
   }
   
-  .service-content {
+  .whatWeOffer-content {
     padding: 1.5rem;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
   }
   
-  .service-title {
+  .whatWeOffer-title {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #4d70b5;
     position: relative;
     padding-bottom: 0.75rem;
   }
   
-  .service-title:after {
+  .whatWeOffer-title:after {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 50px;
     height: 3px;
-    background: linear-gradient(90deg, #ff6b6b, #ff8e53);
+    background: linear-gradient(90deg, #4d70b5, #4d70b5);
   }
   
-  .service-description {
+  .whatWeOffer-description {
     color: #666;
     line-height: 1.6;
     margin-top: auto;
@@ -93,43 +93,43 @@
   
   /* Media Queries for Responsiveness */
   @media (min-width: 768px) {
-    .services-grid {
+    .whatWeOffers-grid {
       grid-template-columns: repeat(2, 1fr);
       gap: 2rem;
     }
   
-    .services-main-title {
+    .whatWeOffers-main-title {
       font-size: 3rem;
     }
   }
   
   @media (min-width: 1024px) {
-    .services-grid {
+    .whatWeOffers-grid {
       grid-template-columns: repeat(3, 1fr);
     }
   
-    .service-item {
+    .whatWeOffer-item {
       flex-direction: column;
     }
   
-    .service-image-container {
+    .whatWeOffer-image-container {
       height: 220px;
     }
   }
   
   @media (min-width: 1280px) {
-    .services-container {
+    .whatWeOffers-container {
       padding: 5rem 2rem;
     }
   
-    .service-title {
+    .whatWeOffer-title {
       font-size: 1.75rem;
     }
   }
   
   /* Alternate layout for larger screens */
   @media (min-width: 1400px) {
-    .service-item:nth-child(even) {
+    .whatWeOffer-item:nth-child(even) {
       flex-direction: column;
     }
   }

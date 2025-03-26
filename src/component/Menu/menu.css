@@ -159,16 +159,25 @@ ul {
   gap: 20px;
   z-index: 1001;
 }
-
+.submenu-item:hover .service-icon {
+  rotate: 90deg;
+  transition: rotate 0.6s ease-in-out;
+  width: 60px;
+ 
+ }
+ .submenu-item .service-icon {
+  transition: rotate 0.6s ease-in-out;
+ 
+ }
 .menu-item:hover .submenu {
   opacity: 1;
   visibility: visible;
-  transform: translateX(-50%) translateY(0);
 }
 
 .submenu-item {
   position: relative;
   overflow: hidden;
+  transition: rotate 0.6s ease-in-out;
 }
 
 /* Updated submenu styling to match the screenshot */
@@ -207,6 +216,13 @@ ul {
   border-radius: 4px;
   color: #4d70b5;
   transition: all 0.3s ease;
+}
+
+.service-icon:hover {
+ rotate: 90deg;
+ transition: rotate 0.4s;
+ width: 60px;
+
 }
 
 .submenu-item > a:hover .service-icon,
