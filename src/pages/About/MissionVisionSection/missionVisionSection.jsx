@@ -1,5 +1,5 @@
 import './missionVisionSection.css';
-import OurClients from '../../Home/OurClients/OurClients';
+import OurClients from '../../Home/OurClients/ourClients';
 
 const missionVisionSection = () => {
   return (
