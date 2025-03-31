@@ -1,0 +1,90 @@
+/* Section 1 - Form */
+.career-form-section {
+    padding: 50px;
+    background: #f5f5f5;
+}
+
+.career-form-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.career-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.career-form input,
+.career-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.career-form label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.career-form button {
+    background-color: #4d70b5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.career-form button:hover {
+    background-color: #2d4d7d;
+}
+
+/* Section 2 - Why Join Us */
+.career-why-join-section {
+    padding: 50px;
+    background: linear-gradient(90deg, #4d70b5, #2d4d7d);
+    color: white;
+    text-align: center;
+}
+
+.career-why-join-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.career-why-join-section p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .career-banner-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .career-banner-content p {
+        font-size: 1rem;
+    }
+
+    .career-form-container {
+        padding: 20px;
+    }
+    
+    .career-why-join-section h2 {
+        font-size: 2rem;
+    }
+
+    .career-why-join-section p {
+        font-size: 0.9rem;
+    }
+}

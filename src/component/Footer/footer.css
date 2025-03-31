@@ -126,3 +126,8 @@
     color: black;
   }
   
+  @media (max-width: 768px) {
+    .footer-container {
+      justify-content: flex-start;
+    }
+  }

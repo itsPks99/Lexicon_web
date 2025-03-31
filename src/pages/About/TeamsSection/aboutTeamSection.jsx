@@ -53,13 +53,7 @@ const AboutTeamSection = () => {
 
             {/* Section 1 */}
             <div className="aboutTeamSection__block" ref={section1Ref}>
-                <div className="aboutTeamSection__imageContainer">
-                    <img src="/assets/CEO.jpg" alt="Neel Shah" />
-                    <h3>Mr. Jigesh Shah</h3>
-                    <p>Co-Founder
-                        Technical Director
-                    </p>
-                </div>
+                
                 <div className="aboutTeamSection__textContainer">
                     <blockquote className="aboutTeamSection__quote">“Innovations can happen only when you believe in the world of countless possibilities.”</blockquote>
                     <p><strong style={{ color: "#4d70b5" }}>Mr. Jigesh Shah,</strong> as the Technical Director at Lexicon Computers Pvt. Ltd., plays a pivotal role in staying ahead of emerging technologies
@@ -70,13 +64,25 @@ const AboutTeamSection = () => {
                         ensuring that Lexicon has access to cutting-edge resources and support, further strengthening the company’s technical capabilities</p>
 
                 </div>
+                <div className="aboutTeamSection__imageContainer">
+                    <img src="/assets/jigesh.jpg" alt="Neel Shah" />
+                    <h3>Mr. Jigesh Shah</h3>
+                    <p>Co-Founder
+                        Technical Director
+                    </p>
+                </div>
             </div>
 
          
 
             {/* Section 2 */}
             <div className="aboutTeamSection__block" ref={section2Ref}>
-
+            <div className="aboutTeamSection__imageContainer">
+                    <img src="/assets/Ashlesh.jpg" alt="Gunjana Shah" />
+                    <h3>Mr. Ashlesh Shah </h3>
+                    <p> Co-Founder & Director Of
+                        Marketing & Client Relation</p>
+                </div>
                 <div className="aboutTeamSection__textContainer">
                     <blockquote className="aboutTeamSection__quote">“Any solution should not only bring a change, it should revolutionize lives dynamically.”</blockquote>
                     <p> <strong style={{ color: "#4d70b5" }}>Mr. Ashlesh Shah</strong> is the face of Lexicon Computers Pvt. Ltd. in the market. As the head of Marketing and Client Relations, Ashlesh is
@@ -86,12 +92,7 @@ const AboutTeamSection = () => {
                         innovative marketing strategies and commitment to fostering strong client relationships have been integral to Lexicon's success.
                         Outside of work, Ashlesh enjoys keeping up with the latest trends in digital marketing and client relationship management.</p>
                 </div>
-                <div className="aboutTeamSection__imageContainer">
-                    <img src="/assets/CEO.jpg" alt="Gunjana Shah" />
-                    <h3>Mr. Ashlesh Shah </h3>
-                    <p> Co-Founder & Director Of
-                        Marketing & Client Relation</p>
-                </div>
+                
             </div>
         </div>
     );

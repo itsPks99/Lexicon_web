@@ -1,0 +1,107 @@
+.networkBanner {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Moving Background Animation */
+.networkBanner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: url('/assets/networkBanner.png') repeat-x;
+    background-size: cover;
+    animation: scrollBackground 30s linear infinite;
+}
+
+/* Animation Definition */
+@keyframes scrollBackground {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Overlay with dark background */
+.networkBanner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Centered content */
+.networkBanner-content {
+    color: white !important;
+    padding: 0 20px;
+    position: relative; /* Make sure it's above the overlay */
+}
+
+/* Title styling */
+.networkBanner-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+/* Subtitle styling */
+.networkBanner-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Tablet (Medium Screens) */
+@media (max-width: 1024px) {
+    .networkBanner-title {
+        font-size: 3rem;
+    }
+
+    .networkBanner-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .networkBanner {
+        height: 50vh;
+    }
+}
+
+/* Mobile (Small Screens) */
+@media (max-width: 768px) {
+    .networkBanner-title {
+        font-size: 2.5rem;
+    }
+
+    .networkBanner-subtitle {
+        font-size: 1rem;
+    }
+
+    .networkBanner {
+        height: 45vh;
+    }
+}
+
+/* Very Small Mobile (Extra Small Screens) */
+@media (max-width: 480px) {
+    .networkBanner-title {
+        font-size: 1.8rem;
+    }
+
+    .networkBanner-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .networkBanner {
+        height: 40vh;
+    }
+}

@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import './ourServices1.css';
-import OurClients from '../OurClients/ourClients.jsx';
+// import OurClients from '../OurClients/ourClients.jsx';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -144,7 +144,7 @@ const OurServices2 = () => {
         </div>
       </section>
       
-      <OurClients />
+      {/* <OurClients /> */}
 
       <section className="ourServices2__container ourServices2__container-second">
         <div className="ourServices2__image">

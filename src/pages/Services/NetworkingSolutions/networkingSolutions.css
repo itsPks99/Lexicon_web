@@ -1,0 +1,56 @@
+.networking-page {
+    padding: 100px 20px;
+    background: #f9fafc;
+  }
+  
+  .networking-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .networking-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .networking-text h1 {
+    font-size: 3rem;
+    color: #004080;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .networking-text p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .networking-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .networking-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .networking-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .networking-text h1 {
+      font-size: 2rem;
+    }
+  }
+  
