@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "./NetworkingSolutions.css";
+import "./networkingSolutions.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import NetworkBanner from "./networkBanner";
