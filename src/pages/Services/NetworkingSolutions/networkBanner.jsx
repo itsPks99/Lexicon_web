@@ -51,7 +51,7 @@ const NetworkBanner = () => {
     <div className="networkBanner">
       <div className="networkBanner-overlay">
         <div className="networkBanner-content">
-          <h1 className="networkBanner-title" ref={titleRef}>Reliable Networking Solutions for Modern Businesses</h1>
+          <h1 className="networkBanner-title" ref={titleRef}>Reliable Networking Solutions</h1>
           <h2 className="networkBanner-subtitle" ref={subtitleRef}>Seamlessly connect, communicate, and grow with infrastructure built for the future.</h2>
         </div>
       </div>
