@@ -13,7 +13,7 @@ export default function HeroSection() {
       id: 1, 
       prefixColor: "#ff5733", 
       title: "IT Integrated Solutions", 
-      description: "We provide innovative IT Integrated Solutions, including ERP, CRM, and infrastructure management. Our scalable systems enhance communication, data accessibility, and operational efficiency. With end-to-end consultation and implementation, we ensure your IT systems work harmoniously to drive productivity and growth.",
+      description: "“Technology isn’t just built — it’s connected. Integration is where transformation begins.”",
       image: "/assets/hero_1.webp", 
       link: "/services/integrated-solutions" 
     },
@@ -21,7 +21,7 @@ export default function HeroSection() {
       id: 2, 
       prefixColor: "#33a1ff", 
       title: "Smart IT Infrastructure", 
-      description: "Our Smart IT Infrastructure services offer advanced networking, cloud architecture, and data center solutions. We deliver scalable, resilient systems designed for seamless integration, enhanced security, and optimal performance, ensuring efficient data management and business continuity.",
+      description: "“Behind every great system is an infrastructure you never have to worry about.”",
       image: "/assets/hero_2.webp", 
       link: "/services/it-infrastructure" 
     },
@@ -29,7 +29,7 @@ export default function HeroSection() {
       id: 3, 
       prefixColor: "#28a745", 
       title: "IT Enabled Services", 
-      description: "We offer comprehensive IT Enabled Services (ITES), including data processing, BPO, and IT consulting. Our solutions enhance efficiency, reduce costs, and improve service delivery, empowering your business with superior productivity and streamlined operations.",
+      description: "“Support that runs quietly in the background — until it’s time to lead.”",
       image: "/assets/hero_3.webp", 
       link: "/services/enabled-services" 
     },
@@ -37,7 +37,7 @@ export default function HeroSection() {
       id: 4, 
       prefixColor: "#ff33ff", 
       title: "IT Smart Solutions", 
-      description: "Our Cloud & On-Site Data Solutions provide secure, scalable data management systems. Combining cloud technology with on-premise setups, we ensure data availability, enhanced performance, and superior protection for seamless operations.",
+      description: "“Whether in the cloud or on the ground — your data stays where it belongs.”",
       image: "/assets/hero_4.webp", 
       link: "/services/data-solutions" 
     },
@@ -45,7 +45,7 @@ export default function HeroSection() {
       id: 5, 
       prefixColor: "#ffcc00", 
       title: "Advanced Security Solutions", 
-      description: "We deliver cutting-edge cybersecurity solutions, including network protection, data encryption, and intrusion detection. Our proactive approach ensures your systems remain safe from cyber threats, enhancing business resilience and data integrity.",
+      description: "“Real security doesn’t shout. It protects — silently, constantly, relentlessly.”",
       image: "/assets/hero_5.webp", 
       link: "/services/security-solutions" 
     },
@@ -53,7 +53,7 @@ export default function HeroSection() {
       id: 6, 
       prefixColor: "#6633ff", 
       title: "Software Services", 
-      description: "We offer customized software development, including web and mobile apps, enterprise solutions, and cloud-based systems. Our end-to-end services ensure innovative, efficient, and tailored solutions for your business needs.",
+      description: "“Great software doesn’t just solve problems — it understands them first.”",
       image: "/assets/hero_6.webp", 
       link: "/services/software-services" 
     }

@@ -55,7 +55,7 @@ const AboutTeamSection = () => {
             <div className="aboutTeamSection__block" ref={section1Ref}>
                 
                 <div className="aboutTeamSection__textContainer">
-                    <blockquote className="aboutTeamSection__quote">“Innovations can happen only when you believe in the world of countless possibilities.”</blockquote>
+                    {/* <blockquote className="aboutTeamSection__quote">“Innovations can happen only when you believe in the world of countless possibilities.”</blockquote> */}
                     <p><strong style={{ color: "#4d70b5" }}>Mr. Jigesh Shah,</strong> as the Technical Director at Lexicon Computers Pvt. Ltd., plays a pivotal role in staying ahead of emerging technologies
                         in the market. He actively monitors industry trends to ensure that the company is always equipped with the latest innovations.
                         Jigesh is responsible for driving technology upgrades and seamlessly implementing them within the organization, enhancing
@@ -84,7 +84,7 @@ const AboutTeamSection = () => {
                         Marketing & Client Relation</p>
                 </div>
                 <div className="aboutTeamSection__textContainer">
-                    <blockquote className="aboutTeamSection__quote">“Any solution should not only bring a change, it should revolutionize lives dynamically.”</blockquote>
+                    {/* <blockquote className="aboutTeamSection__quote">“Any solution should not only bring a change, it should revolutionize lives dynamically.”</blockquote> */}
                     <p> <strong style={{ color: "#4d70b5" }}>Mr. Ashlesh Shah</strong> is the face of Lexicon Computers Pvt. Ltd. in the market. As the head of Marketing and Client Relations, Ashlesh is
                         responsible for shaping the company’s branding, communication, and relationship building strategies. With his strong
                         background in marketing and a deep understanding of client needs, he plays a key role in driving business growth and ensuring

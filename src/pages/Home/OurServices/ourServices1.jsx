@@ -2,7 +2,6 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import './ourServices1.css';
-// import OurClients from '../OurClients/ourClients.jsx';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -23,7 +22,7 @@ const OurServices2 = () => {
         const wordSpan = document.createElement('span');
         wordSpan.style.display = 'inline-block';
         wordSpan.style.whiteSpace = 'nowrap';
-        
+
         word.split('').forEach((char) => {
           const charSpan = document.createElement('span');
           charSpan.textContent = char;
@@ -52,8 +51,8 @@ const OurServices2 = () => {
       scrollTrigger: {
         trigger: ".ourServices2__container",
         start: "top center",
-        end: "bottom center",
-        toggleActions: "play none none reverse",
+        once: true, // Only animate once on scroll up
+        toggleActions: "play none none none"
       }
     });
 
@@ -85,8 +84,8 @@ const OurServices2 = () => {
       scrollTrigger: {
         trigger: ".ourServices2__container-second",
         start: "top center",
-        end: "bottom center",
-        toggleActions: "play none none reverse",
+        once: true,
+        toggleActions: "play none none none"
       }
     });
 
@@ -101,7 +100,7 @@ const OurServices2 = () => {
       opacity: 1,
       y: 0,
       duration: 1,
-      stagger: 0.03,
+      stagger: 0.01,
       ease: "back.out(1.7)"
     }, "-=1")
     .fromTo(desc2Ref.current, {
@@ -114,10 +113,10 @@ const OurServices2 = () => {
       ease: "power2.out"
     }, "-=1");
 
-    return () => {
-      tl1.kill();
-      tl2.kill();
-    };
+    // return () => {
+    //   tl1.kill();
+    //   tl2.kill();
+    // };
   }, []);
 
   return (
@@ -128,7 +127,7 @@ const OurServices2 = () => {
             <span className="ourServices2__title-line" ref={line1Ref}>Innovative Solutions</span>
             <span className="ourServices2__title-line" ref={line2Ref}>For Tomorrow</span>
           </h2>
-          <br/>
+          <br />
           <p className="ourServices2__description" ref={descRef}>
             Our innovative approach combines cutting-edge technology with creative thinking 
             to deliver solutions that not only meet today's needs but anticipate tomorrow's 
@@ -136,21 +135,19 @@ const OurServices2 = () => {
             digital excellence.
           </p>
         </div>
-        <div className="ourServices2__image">
+        <div className="ourServices2__image" style={{ '--custom-img-height': '380px' }}>
           <img 
-            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" 
-            alt="Team collaboration"
+            src="/assets/imagesforinnovation.png" 
+            alt="Innovative Digital Solutions" 
           />
         </div>
       </section>
-      
-      {/* <OurClients /> */}
 
       <section className="ourServices2__container ourServices2__container-second">
-        <div className="ourServices2__image">
+        <div className="ourServices2__image" style={{ '--custom-img-height': '380px' }}>
           <img 
-            src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" 
-            alt="Digital transformation"
+            src="/assets/inagesforDigitalExcellence.png" 
+            alt="Digital Excellence Redefined" 
           />
         </div>
         <div className="ourServices2__content">
@@ -158,7 +155,7 @@ const OurServices2 = () => {
             <span className="ourServices2__title-line" ref={line3Ref}>Digital Excellence</span>
             <span className="ourServices2__title-line" ref={line4Ref}>Redefined</span>
           </h2>
-          <br/>
+          <br />
           <p className="ourServices2__description" ref={desc2Ref}>
             We transform businesses through cutting-edge digital solutions. Our expertise 
             in emerging technologies and strategic innovation helps organizations stay ahead 

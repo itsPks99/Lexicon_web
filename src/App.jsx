@@ -10,8 +10,9 @@ import Careers from "./pages/Careers/career";
 // Service pages
 import NetworkingSolutions from './pages/Services/NetworkingSolutions/networkingSolutions';
 // Add more services as needed
-// import InfrastructureServices from './pages/Services/ItInfrastructure/itInfrastructure';
-// import SecuritySystem from './pages/Services/SecuritySystem';
+ import InfrastructureServices from './pages/Services/ItInfrastructure/itInfrastructure';
+ import SecuritySystem from './pages/Services/SecuritySystem/securitySystem';
+//  import IntegrateSolution from './pages/Services/ItIntegratedSolution/itIntegrateSolution.jsx';
 
 function App() {
   return (
@@ -26,8 +27,10 @@ function App() {
 
         {/* 👇 Individual submenu routes under /services */}
         <Route path="/services/networking" element={<NetworkingSolutions />} />
-         {/* <Route path="/services/infrastructure" element={<InfrastructureServices />} /> */}
-        {/* <Route path="/services/security" element={<SecuritySystem />} />  */}
+        <Route path="/services/infrastructure" element={<InfrastructureServices />} />
+        <Route path="/services/security" element={<SecuritySystem />} /> 
+        {/* <Route path="/services/integration" element={<IntegrateSolution />} />  */}
+        
       </Routes>
       <Footer />
     </Router>

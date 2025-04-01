@@ -1,0 +1,51 @@
+.securitySystem {
+    padding: 0px 0;
+  }
+  
+  .ss-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4%;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .ss-section.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .ss-text {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .ss-image {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .ss-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+  .ss-text h2 {
+    font-size: 2.5rem;
+    color: #4d70b5;
+    margin-bottom: 1rem;
+  }
+  
+  .ss-text p,
+  .ss-text ul,
+  .ss-text ol {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .ss-text ul, .ss-text ol {
+    padding-left: 1.2rem;
+  }
+  

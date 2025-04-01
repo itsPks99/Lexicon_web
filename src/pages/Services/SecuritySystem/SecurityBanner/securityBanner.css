@@ -1,41 +1,37 @@
-.aboutBanner {
+.securityBanner {
     position: relative;
     width: 100%;
     height: 60vh;
     overflow: hidden;
-    background-size: 100% 60%; /* Ensure the image width is 100% */
-    background-position: center;
-    object-fit: cover;
 }
 
 /* Moving Background Animation */
-.aboutBanner::before {
+.securityBanner::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 200%;
     height: 100%;
-    background: url('/assets/aboutBanner.png') repeat-x;
-    background-size: 100% auto; /* Ensure the image width is 100% */
+    background: url('/assets/securityBanner.png') repeat-x;
+    background-size: cover;
     animation: scrollBackground 30s linear infinite;
-    object-fit: cover;
 }
 
 /* Animation Definition */
 @keyframes scrollBackground {
-    0% { transform: translateX(0); }
+    80% { transform: translateX(-80); }
     100% { transform: translateX(-50%); }
 }
 
 /* Overlay with dark background */
-.aboutBanner-overlay {
+.securityBanner-overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,14 +39,14 @@
 }
 
 /* Centered content */
-.aboutBanner-content {
+.securityBanner-content {
     color: white !important;
     padding: 0 20px;
     position: relative; /* Make sure it's above the overlay */
 }
 
 /* Title styling */
-.aboutBanner-title {
+.securityBanner-title {
     font-size: 4rem;
     font-weight: 700;
     color: white;
@@ -58,52 +54,52 @@
 }
 
 /* Subtitle styling */
-.aboutBanner-subtitle {
+.securityBanner-subtitle {
     font-size: 1.5rem;
     font-weight: 400;
 }
 
 /* Tablet (Medium Screens) */
 @media (max-width: 1024px) {
-    .aboutBanner-title {
+    .securityBanner-title {
         font-size: 3rem;
     }
 
-    .aboutBanner-subtitle {
+    .securityBanner-subtitle {
         font-size: 1.25rem;
     }
 
-    .aboutBanner {
+    .securityBanner {
         height: 50vh;
     }
 }
 
 /* Mobile (Small Screens) */
 @media (max-width: 768px) {
-    .aboutBanner-title {
+    .securityBanner-title {
         font-size: 2.5rem;
     }
 
-    .aboutBanner-subtitle {
+    .securityBanner-subtitle {
         font-size: 1rem;
     }
 
-    .aboutBanner {
+    .securityBanner {
         height: 45vh;
     }
 }
 
 /* Very Small Mobile (Extra Small Screens) */
 @media (max-width: 480px) {
-    .aboutBanner-title {
+    .securityBanner-title {
         font-size: 1.8rem;
     }
 
-    .aboutBanner-subtitle {
+    .securityBanner-subtitle {
         font-size: 0.9rem;
     }
 
-    .aboutBanner {
+    .securityBanner {
         height: 40vh;
     }
 }

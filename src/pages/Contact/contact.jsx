@@ -7,11 +7,11 @@ const ContactPage = () => {
     return (
        <>
        <ContactBanner />
-        <div className="contactPage__container">
+        {/* <div className="contactPage__container">
             <h1 className="contactPage__heading">Find Your Way To Our Doorstep</h1>
 
             <div className="contactPage__content">
-                {/* Contact Information Section */}
+               
                 <div className="contactPage__info">
                     <h2>Contact</h2>
                     <div className="contactPage__details">
@@ -39,7 +39,7 @@ const ContactPage = () => {
                     </div>
                 </div>
 
-                {/* Map Section with Link */}
+               
                 <div className="contactPage__map">
                     <a 
                         href="https://www.google.com/maps/place/Papa+Industrial+Estate,+Suren+Rd,+Andheri+East,+Mumbai,+Maharashtra+400093/@19.1115446,72.8597989,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c8107eb2f19d:0x2a648c7b79814de2!8m2!3d19.1115446!4d72.8597989!16s%2Fg%2F11b7h_zx7x"
@@ -58,7 +58,7 @@ const ContactPage = () => {
                     </a>
                 </div>
             </div>
-        </div>
+        </div> */}
         <ConnectWithUs />
        </>
     );

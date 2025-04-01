@@ -10,7 +10,7 @@ const statisticsData = [
     { id: 2, value: 50, label: "OEM Technology Partners" },
     { id: 3, value: 250, label: "Large IT Projects with partnarship" },
     { id: 4, value: 900, label: "Crore INR Revenue *FY23-24" },
-    { id: 5, value: 250, label: "Certified Tech Experts with partnarship" }
+    { id: 5, value: 250, label: "Certified Tech Experts " }
 ];
 
 const StatisticsSection = () => {
