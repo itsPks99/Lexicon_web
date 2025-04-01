@@ -51,9 +51,8 @@ const securityBanner = () => {
     <div className="securityBanner">
       <div className="securityBanner-overlay">
         <div className="securityBanner-content">
-          <h1 className="securityBanner-title" ref={titleRef}>CONTACT US</h1>
-          <h2 className="securityBanner-subtitle" ref={subtitleRef}>Solution to your
-          search.....</h2>
+          <h1 className="securityBanner-title" ref={titleRef}>ROBUST SECURITY SYSTEM</h1>
+          <h2 className="securityBanner-subtitle" ref={subtitleRef}>Protecting Your Digital & Physical Spaces with Intelligence and Precision</h2>
         </div>
       </div>
     </div>
