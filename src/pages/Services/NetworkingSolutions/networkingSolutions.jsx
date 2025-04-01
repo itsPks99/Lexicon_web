@@ -3,7 +3,7 @@ import "./networkingSolutions.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import NetworkBanner from "./networkBanner";
-import ConnectWithUs from "../../../Home/ConnectWithUs/connectWithUs.jsx";
+import ConnectWithUs from "../../../pages/Home/ConnectWithUs/connectwithUs";
 gsap.registerPlugin(ScrollTrigger);
 
 const NetworkingSolutions = () => {
