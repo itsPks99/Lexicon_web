@@ -13,7 +13,7 @@
     left: 0;
     width: 200%;
     height: 100%;
-    background: url('/assets/securityBanner.png') repeat-x;
+    background: url('/assets/security2.png') repeat-x;
     background-size: cover;
     animation: scrollBackground 30s linear infinite;
 }
