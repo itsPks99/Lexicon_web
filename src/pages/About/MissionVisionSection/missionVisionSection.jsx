@@ -7,7 +7,7 @@ const missionVisionSection = () => {
       {/* About Company */}
       <section id="about-our-company" className="missionVisionSection-section missionVisionSection-split-background">
         <div className="missionVisionSection-image-container">
-          <img src="/assets/aboutImage.png" alt="About" />
+          <img src="/assets/AboutImage1.png" alt="About" />
         </div>
         <div className="missionVisionSection-content">
           <h1>ABOUT US</h1>
@@ -59,7 +59,7 @@ const missionVisionSection = () => {
           </p>
         </div>
         <div className="missionVisionSection-image-container">
-          <img src="/assets/OurValue.png" alt="Our Mission" />
+          <img src="/assets/OurValue1.png" alt="Our Mission" />
         </div>
       </section>
     </div>
