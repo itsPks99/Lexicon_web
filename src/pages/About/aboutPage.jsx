@@ -1,19 +1,19 @@
 import AboutTeamSection from "./TeamsSection/aboutTeamSection";
 import MissionVisionSection from "./MissionVisionSection/missionVisionSection.jsx";
+import OurClients from '../Home/OurClients/ourClients.jsx';
 // import WhatWeOffer from "./WhatWeOffer/whatWeOffer.jsx";
-import ConnectWithUs from "../Home/ConnectWithUs/connectwithUs.jsx";
+// import ConnectWithUs from "../Home/ConnectWithUs/connectwithUs.jsx";
 import AboutBanner from "./AboutBanner/AboutBanner.jsx";
-// import Hero from "../../pages/Home/HeroSection/heroSection.jsx";
 
 function AboutPage() {
     return (
         <>
-        {/* <Hero title="About Us" /> */}
         <AboutBanner />
         <MissionVisionSection />
+        <OurClients />
         {/* <WhatWeOffer /> */}
         <AboutTeamSection />   
-        <ConnectWithUs />
+        {/* <ConnectWithUs /> */}
         </>
     );
 }

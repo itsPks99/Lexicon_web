@@ -70,7 +70,7 @@ const Menu = () => {
           <Link to="#"><FaYoutube /></Link>
         </div>
         <div className="contact-info">
-          <a href="tel:+02249185900"><PhoneCall size={18} /> +022-49185900</a>
+          <a href="tel:+02249185900"><PhoneCall size={18} />+91-22-49700111</a>
           <a href="mailto:info@lexiconindia.com"><MailIcon size={18} /> info@lexiconindia.com</a>
         </div>
       </div>

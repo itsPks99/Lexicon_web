@@ -3,7 +3,7 @@ import "./networkingSolutions.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import NetworkBanner from "./networkBanner";
-import ConnectWithUs from "../../../pages/Home/ConnectWithUs/connectwithUs";
+// import ConnectWithUs from "../../../pages/Home/ConnectWithUs/connectwithUs";
 gsap.registerPlugin(ScrollTrigger);
 
 const NetworkingSolutions = () => {
@@ -78,7 +78,7 @@ const NetworkingSolutions = () => {
         </div>
       </div>
     </section>
-    <ConnectWithUs/>
+    {/* <ConnectWithUs/> */}
     </>
   );
 };

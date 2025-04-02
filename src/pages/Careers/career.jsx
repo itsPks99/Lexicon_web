@@ -2,7 +2,7 @@ import React from "react";
 import './career.css';
 import { useState } from "react";
 import CareerBanner from './CareerBanner/careerBanner'
-import ConnectWithUs from "../Home/ConnectWithUs/connectwithUs";
+// import ConnectWithUs from "../Home/ConnectWithUs/connectwithUs";
 
 const CareerPage = () => {
   const [resume, setResume] = useState(null);
@@ -45,7 +45,7 @@ const CareerPage = () => {
         </div>
       </section>
     </div>
-    <ConnectWithUs/>
+    {/* <ConnectWithUs/> */}
     </>
   );
 };

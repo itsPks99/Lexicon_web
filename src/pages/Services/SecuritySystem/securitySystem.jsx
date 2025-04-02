@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "./securitySystem.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import ConnectWithUs from "../../../pages/Home/ConnectWithUs/connectwithUs";
+// import ConnectWithUs from "../../../pages/Home/ConnectWithUs/connectwithUs";
 import SecurityBanner from './SecurityBanner/securityBanner'
 
 gsap.registerPlugin(ScrollTrigger);
@@ -107,7 +107,7 @@ const SecuritySystem = () => {
       </section>
 
       {/* Section 5: Connect */}
-      <ConnectWithUs />
+      {/* <ConnectWithUs /> */}
     </div>
    </>
   );

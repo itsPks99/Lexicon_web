@@ -1,4 +1,4 @@
-import ConnectWithUs from "./ConnectWithUs/connectwithUs";
+// import ConnectWithUs from "./ConnectWithUs/connectwithUs";
 import HeroSection from "./HeroSection/heroSection";
 import ServicesSectionWithIcons from "./ServicesSectionwithIcons/ServicesSectionWithIcons";
 import OurServices1 from "./OurServices/ourServices1";
@@ -15,7 +15,7 @@ function Home () {
             <OurServices1 />
             <StatisticsSection />
             <TrustedPartnerSection />
-            <ConnectWithUs />
+            {/* <ConnectWithUs /> */}
         </>
     )
 }

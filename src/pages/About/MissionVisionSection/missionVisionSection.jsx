@@ -1,5 +1,5 @@
 import './missionVisionSection.css';
-import OurClients from '../../Home/OurClients/ourClients';
+
 
 const missionVisionSection = () => {
   return (
@@ -25,7 +25,7 @@ const missionVisionSection = () => {
         </div>
       </section>
 
-      <OurClients />
+      
 
       {/* What We Do */}
       {/* <section id="what-we-do" className="missionVisionSection-section missionVisionSection-split-background">

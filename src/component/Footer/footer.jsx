@@ -52,7 +52,7 @@ const Footer = () => {
         <div className="footer-container">
           <div className="footer-item">
             <Phone color="#4d70b5" size={30} /> 
-            <a href="tel:+919769878878">+91-02249700111</a>
+            <a href="tel:+919769878878">+91-22-49700111</a>
           </div>
           
           <div className="footer-item">
@@ -78,14 +78,14 @@ const Footer = () => {
         <div className="footer-menu">
           <a href="#">Home</a>
           <a href="/about">About Us</a>
-          <a href="#">Services</a>
+          {/* <a href="#">Services</a> */}
           <a href="#">Contact</a>
         </div>
 
         <div className="footer-bottom">
           <p>
             For Corporate Enquiries Call: 
-            <a href="tel:+919769878878"> +91-02249700111</a> | 
+            <a href="tel:+919769878878">+91-22-49700111</a> | 
             <span className="request-demo" onClick={() => setShowPopup(true)}> Request A Demo</span>
             <br />©2025 Lexicon Computers Pvt. Ltd. All Rights Reserved.
           </p>

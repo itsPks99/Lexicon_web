@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./itIntegrateSolution.css";
-import ConnectWithUs from "../../../pages/Home/ConnectWithUs/connectwithUs";
+// import ConnectWithUs from "../../../pages/Home/ConnectWithUs/connectwithUs";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -117,7 +117,7 @@ const ITIntegrateSolution = () => {
       </section>
 
       {/* Connect Section */}
-      <ConnectWithUs />
+      {/* <ConnectWithUs /> */}
     </div>
   );
 };
