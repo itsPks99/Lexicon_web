@@ -1,71 +1,82 @@
 .statistics-section {
     padding: 60px 0;
-    background-color: white;
     background: linear-gradient(45deg, #f0f0f0, #ffffff);
-}
-
-.statistics-container {
+  }
+  
+  .statistics-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     max-width: 1200px;
     margin: auto;
-}
-
-.stat-card {
+  }
+  
+  .stat-card {
     background: white;
     border-radius: 10px;
     padding: 20px 30px;
-    margin: 10px;
-    text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     min-width: 150px;
-}
-
-.stat-card:hover {
+    min-height: 180px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 220px; /* Allows flexibility for responsive columns */
+    max-width: 260px;
+  }
+  
+  .stat-card:hover {
     transform: translateY(-5px);
-}
-
-.stat-card h3 {
+  }
+  
+  .stat-card h3 {
     font-size: 2.5rem;
     color: #4d70b5;
     margin-bottom: 10px;
     font-weight: bold;
-}
-
-.stat-card p {
+  }
+  
+  .stat-card p {
     color: #333;
     font-size: 0.95rem;
-    max-width: 150px;
+    max-width: 160px;
     text-align: center;
-}
-
-/* Responsive Styling */
-@media (max-width: 1024px) {
+    line-height: 1.4;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 1024px) {
     .statistics-container {
-        flex-direction: column;
-        align-items: stretch;
+      justify-content: space-evenly;
     }
-
+  
     .stat-card {
-        width: 80%;
-        margin: 10px auto;
+      max-width: 45%;
     }
-
-    .stat-card p{
-        margin-left: 200px;
-    }
-}
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
     .stat-card h3 {
-        font-size: 2rem;
+      font-size: 2rem;
     }
-
+  
     .stat-card p {
-        font-size: 0.85rem;
-        margin-left: 45px;
+      font-size: 0.85rem;
     }
-}
+  
+    .stat-card {
+      max-width: 48%; /* 2 columns on mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .stat-card {
+      max-width: 100%; /* Full width on very small screens */
+    }
+  }
+  

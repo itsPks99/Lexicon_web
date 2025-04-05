@@ -9,11 +9,20 @@
   }
   
   body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Proxima Nova';
     line-height: 1.6;
-    font-weight: 700;
-  }
-  p{
     font-weight: 400;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Avenir';
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  
+  p {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    line-height: 1.6;
   }
   

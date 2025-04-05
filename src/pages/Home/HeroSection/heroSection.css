@@ -49,7 +49,7 @@
 
 /* Description Paragraph Styling */
 .slide-description {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 25px;
     max-width: 800px;
     line-height: 1.1;
@@ -58,7 +58,7 @@
 .read-more-btn {
     background-color:#f8f9fa;
     color: black;
-    padding: 10px 20px;
+    padding: 6px 10px;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
@@ -93,6 +93,9 @@
     .slide-title {
       font-size: 1.2rem;
     }
+    .read-more-btn{
+        font-size: 8px;
+    }
     
     .content {
         top: 55%;
@@ -100,7 +103,7 @@
     }
 
     .slide-description {
-        font-size: 0.8rem;
+        font-size: 1rem;
         line-height: 1;
     }
 }

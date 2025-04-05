@@ -13,7 +13,7 @@ export default function HeroSection() {
       id: 1, 
       prefixColor: "#ff5733", 
       title: "IT Integrated Solutions", 
-      description: "“Technology isn’t just built — it’s connected. Integration is where transformation begins.”",
+      description: "“Technology isn’t just built it’s connected. Integration is where transformation begins.”",
       image: "/assets/hero_1.webp", 
       link: "/services/integrated-solutions" 
     },
@@ -29,7 +29,7 @@ export default function HeroSection() {
       id: 3, 
       prefixColor: "#28a745", 
       title: "IT Enabled Services", 
-      description: "“Support that runs quietly in the background — until it’s time to lead.”",
+      description: "“Support that runs quietly in the background until it’s time to lead.”",
       image: "/assets/hero_3.webp", 
       link: "/services/enabled-services" 
     },
@@ -37,7 +37,7 @@ export default function HeroSection() {
       id: 4, 
       prefixColor: "#ff33ff", 
       title: "IT Smart Solutions", 
-      description: "“Whether in the cloud or on the ground — your data stays where it belongs.”",
+      description: "“Whether in the cloud or on the ground your data stays where it belongs.”",
       image: "/assets/hero_4.webp", 
       link: "/services/data-solutions" 
     },
@@ -45,7 +45,7 @@ export default function HeroSection() {
       id: 5, 
       prefixColor: "#ffcc00", 
       title: "Advanced Security Solutions", 
-      description: "“Real security doesn’t shout. It protects — silently, constantly, relentlessly.”",
+      description: "“Real security doesn’t shout. It protects silently, constantly, relentlessly.”",
       image: "/assets/hero_5.webp", 
       link: "/services/security-solutions" 
     },
@@ -53,7 +53,7 @@ export default function HeroSection() {
       id: 6, 
       prefixColor: "#6633ff", 
       title: "Software Services", 
-      description: "“Great software doesn’t just solve problems — it understands them first.”",
+      description: "“Great software doesn’t just solve problems it understands them first.”",
       image: "/assets/hero_6.webp", 
       link: "/services/software-services" 
     }

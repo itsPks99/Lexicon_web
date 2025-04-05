@@ -66,6 +66,16 @@
     line-height: 1.8;
 }
 
+.career-form select.career-dropdown {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: "Proxima Nova";
+}
+
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .career-banner-content h1 {
@@ -88,3 +98,72 @@
         font-size: 0.9rem;
     }
 }
+
+/* Section - Life at Lexicon */
+.career-life-section {
+    padding: 60px 20px;
+    background: #ffffff;
+  }
+  
+  .life-content {
+    display: flex;
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .life-text {
+    flex: 1;
+  }
+  
+  .life-text h2 {
+    font-size: 2.5rem;
+    color: #2d4d7d;
+    margin-bottom: 20px;
+  }
+  
+  .life-text p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .benefits-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .benefit-card {
+    background: #4d70b5;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    flex: 1 1 45%;
+    text-align: center;
+  }
+  
+  .life-image img {
+    max-width: 500px;
+    border-radius: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .life-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .life-image img {
+      width: 100%;
+    }
+  
+    .benefit-card {
+      flex: 1 1 100%;
+    }
+  }
+  
