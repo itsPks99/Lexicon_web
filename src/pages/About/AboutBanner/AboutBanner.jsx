@@ -96,19 +96,17 @@ const AboutBanner = () => {
       Your browser does not support the video tag.
     </video>
       <div className="aboutBanner-overlay">
-        {/* <div className="aboutBanner-content">
+        <div className="aboutBanner-content">
           <h1 className="aboutBanner-title" ref={titleRef} style={{color: "white"}}>
-           Empowering Businesses with Cutting-Edge IT Solutions
+           
           </h1>
           <h2 className="aboutBanner-subtitle" ref={subtitleRef}>
-          At Lexicon Computers, we build future-ready IT infrastructure that 
-          drives success. With decades of expertise, we transform technology into 
-          seamless business solutions.
+          
           </h2>
           <Link to="/contact#form" className="aboutBanner-cta" ref={buttonRef}>
             Discover Our Story
           </Link>
-        </div> */}
+        </div>
       </div>
     </div>
   );

@@ -70,11 +70,11 @@
 
 /* CTA Button */
 .aboutBanner-cta {
-  margin-top: 20px;
+  margin-top: 100px;
   display: inline-block;
   padding: 5px 10px;
-  background-color:white;
-  color: black;
+  color: white;
+  background-color: #4d70b5;
   font-weight: 600;
   border-radius: 5px;
   text-decoration: none;
@@ -85,8 +85,8 @@
 }
 
 .aboutBanner-cta:hover {
-  color: white;
-  background-color: #4d70b5;
+  background-color:white;
+  color: black;
 }
 
 /* Responsive Adjustments */

@@ -13,7 +13,7 @@ const ContactPage = () => {
                 <div className="contactPage__content">
 
                     <div className="contactPage__info">
-                        <h2>Contact</h2>
+                        <h2 style={{textAlign:"center"}}>Contact</h2>
                         <div className="contactPage__details">
 
                             {/* Phone Number */}
