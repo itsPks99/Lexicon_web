@@ -22,7 +22,7 @@
 .contactPage__info {
     flex: 1;
     background: #f5f5f5;
-    padding: 30px;
+    padding: 55px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 0.5px solid #4d70b5;
@@ -32,12 +32,6 @@
     margin-top: 20px;
 }
 
-.contactPage__address, .contactPage__phone, .contactPage__fax {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-    height: 77px;
-}
 
 .contactPage__icon {
     margin-right: 10px;
@@ -54,8 +48,37 @@
     border: 0.5px solid #4d70b5;
 }
 
+
+.contactPage__row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 18px;
+  }
+  
+  .contactPage__icon {
+    font-size: 20px;
+    color: #4d70b5;
+    margin-right: 10px;
+    min-width: 24px;
+  }
+  
+  .contactPage__link {
+    color: #1c1c1c;
+    text-decoration: underline;
+    font-weight: 500;
+    word-break: break-word;
+  }
+  
+  .contactPage__text {
+    color: #1c1c1c;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  
+
+
 /* Responsive Styling */
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .contactPage__content {
         flex-direction: column;
     }
@@ -63,3 +86,81 @@
        width: 347px;
     }
 }
+
+
+.panIndia__section {
+    padding: 60px 20px;
+    background: #ffffff;
+  }
+  
+  .panIndia__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .panIndia__map {
+    flex: 1;
+    min-width: 320px;
+  }
+  
+  .panIndia__map img {
+    width: 100%;
+    height: 462px;
+    border-radius: 10px;
+    /* border: 0.5px solid #ccc; */
+  }
+  
+  .panIndia__content {
+    flex: 1;
+    min-width: 320px;
+  }
+  
+  .panIndia__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4d70b5;
+    margin-bottom: 10px;
+  }
+  
+  /* .panIndia__line {
+    width: 60px;
+    height: 2px;
+    background-color: #4d70b5;
+    margin-bottom: 20px;
+    border: none;
+  } */
+  
+  .panIndia__text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .panIndia__wrapper {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .panIndia__map img {
+      max-width: 90%;
+      margin: 0 auto 20px;
+      height: 394px;
+    }
+  
+    .panIndia__title {
+      font-size: 26px;
+    }
+  
+    .panIndia__text {
+      font-size: 0.95rem;
+      text-align: justify;
+    }
+  }
+  
