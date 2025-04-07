@@ -49,6 +49,17 @@ const securityBanner = () => {
 
   return (
     <div className="securityBanner">
+    {/* Background Video */}
+    <video
+      className="securityBanner-video"
+      autoPlay
+      muted
+      loop
+      playsInline
+    >
+      <source src="/assets/Service_3.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
       <div className="securityBanner-overlay">
         <div className="securityBanner-content">
           <h1 className="securityBanner-title" ref={titleRef}>ROBUST SECURITY SYSTEM</h1>

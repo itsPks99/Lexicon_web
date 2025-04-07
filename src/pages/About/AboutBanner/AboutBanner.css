@@ -6,13 +6,13 @@
 }
 
 /* Background Motion Effect */
-.contactBanner-video {
+.aboutBanner-video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   z-index: 0;
   pointer-events: none;
 }

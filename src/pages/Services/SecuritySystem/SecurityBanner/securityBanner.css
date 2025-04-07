@@ -6,16 +6,15 @@
 }
 
 /* Moving Background Animation */
-.securityBanner::before {
-    content: "";
+.securityBanner-video  {
     position: absolute;
     top: 0;
     left: 0;
-    width: 200%;
-    height: 100%;
-    background: url('/assets/security2.png') repeat-x;
-    background-size: cover;
-    animation: scrollBackground 30s linear infinite;
+    width: 100%;
+    height: 156%;
+    object-fit: cover;
+    z-index: 0;
+    pointer-events: none;
 }
 
 /* Animation Definition */

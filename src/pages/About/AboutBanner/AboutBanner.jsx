@@ -83,20 +83,20 @@ const AboutBanner = () => {
    }, []);
 
   return (
-    <div className="contactBanner">
+    <div className="aboutBanner">
     {/* Background Video */}
     <video
-      className="contactBanner-video"
+      className="aboutBanner-video"
       autoPlay
       muted
       loop
       playsInline
     >
-      <source src="/assets/ContactBannerVideo.mp4" type="video/mp4" />
+      <source src="/assets/AboutVideo.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
       <div className="aboutBanner-overlay">
-        <div className="aboutBanner-content">
+        {/* <div className="aboutBanner-content">
           <h1 className="aboutBanner-title" ref={titleRef} style={{color: "white"}}>
            Empowering Businesses with Cutting-Edge IT Solutions
           </h1>
@@ -108,7 +108,7 @@ const AboutBanner = () => {
           <Link to="/contact#form" className="aboutBanner-cta" ref={buttonRef}>
             Discover Our Story
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
