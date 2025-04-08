@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './career.css';
 import CareerBanner from './CareerBanner/careerBanner';
-import ConnectWithUs from "../Home/ConnectWithUs/connectwithUs";
+// import ConnectWithUs from "../Home/ConnectWithUs/connectwithUs";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -106,7 +106,7 @@ const CareerPage = () => {
         </section>
       </div>
 
-      <ConnectWithUs />
+      {/* <ConnectWithUs /> */}
     </>
   );
 };
