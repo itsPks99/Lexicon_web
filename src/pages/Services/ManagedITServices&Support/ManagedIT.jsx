@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./ManagedIT.css";
-import ManagedItBanner from "./ManagedITBanner";
+import ManagedItBanner from "../ManagedITServices&Support/ManageditBanner.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
 
