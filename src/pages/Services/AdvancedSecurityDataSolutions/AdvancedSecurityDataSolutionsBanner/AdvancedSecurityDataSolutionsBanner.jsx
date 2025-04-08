@@ -2,11 +2,11 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link } from "react-router-dom";
-import "./networkBanner.css";
+import "./AdvancedSecurityDataSolutionsBanner.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const networkBanner = () => {
+const Advancedsecuritydatasolution = () => {
   const titleRef = useRef(null);
   const subtitleRef = useRef(null);
   const buttonRef = useRef(null);
@@ -83,29 +83,29 @@ const networkBanner = () => {
   }, []);
   
   return (
-    <div className="networkBanner">
+    <div className="advancedsecuritydatasolution">
   {/* Background Video */}
   <video
-    className="networkBanner-video"
+    className="advancedsecuritydatasolution-video"
     autoPlay
     muted
     loop
     playsInline
   >
-    <source src="/assets/Service_1.mp4" type="video/mp4" />
+    <source src="/assets/Service_2.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 
-  <div className="networkBanner-overlay">
-    <div className="networkBanner-content">
-      <h1 className="networkBanner-title" ref={titleRef} style={{ color: "white" }}>
-      Seamless Connectivity, Scalable IT Infrastructure
+  <div className="advancedsecuritydatasolution-overlay">
+    <div className="advancedsecuritydatasolution-content">
+      <h1 className="advancedsecuritydatasolution-title" ref={titleRef} style={{ color: "white" }}>
+       Fortifying Your Business with Advanced Security Solutions
       </h1>
-      <h2 className="networkBanner-subtitle" ref={subtitleRef}>
-       Build a robust and future-proof IT foundation with our cutting-edge networking and infrastructure solutions.
+      <h2 className="advancedsecuritydatasolution-subtitle" ref={subtitleRef}>
+       Protect your digital assets with industry-leading security and data solutions.
       </h2>
-      <Link to="/contact#form" className="networkBanner-cta" ref={buttonRef}>
-       Get a Free Consultation
+      <Link to="/contact#form" className="advancedsecuritydatasolution-cta" ref={buttonRef}>
+      Secure Your Business Now
       </Link>
     </div>
   </div>
@@ -114,4 +114,4 @@ const networkBanner = () => {
   );
 };
 
-export default networkBanner;
+export default Advancedsecuritydatasolution;

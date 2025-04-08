@@ -98,7 +98,7 @@ const ContactBanner = () => {
 
   <div className="contactBanner-overlay">
     <div className="contactBanner-content">
-      <h1 className="contactBanner-title" ref={titleRef}>
+      <h1 className="contactBanner-title" ref={titleRef} style={{ color: "white" }}>
         Connect With Us – Your IT Solutions Partner
       </h1>
       <h2 className="contactBanner-subtitle" ref={subtitleRef}>

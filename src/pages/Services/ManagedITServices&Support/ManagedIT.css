@@ -1,0 +1,92 @@
+.managedit-wrapper {
+  background: #f9fafc;
+  /* padding: 80px 20px; */
+}
+
+.managedit-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.managedit-section.alt {
+  flex-direction: row-reverse;
+}
+
+.managedit-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.managedit-content h2 {
+  font-size: 2.5rem;
+  color: #004080;
+  margin-bottom: 15px;
+}
+
+.managedit-content p,
+.managedit-content ul li {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.managedit-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.managedit-content ul li::before {
+  content: "✔️";
+  margin-right: 8px;
+  color: #4d70b5;
+}
+
+.managedit-image {
+  flex: 1;
+  text-align: center;
+}
+
+.managedit-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.managedit-cta {
+  margin-top: 20px;
+  background: #4d70b5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.managedit-cta:hover {
+  background: #2d4d7d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .managedit-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .managedit-content h2 {
+    font-size: 2rem;
+  }
+
+  .managedit-content p,
+  .managedit-content ul li {
+    font-size: 1rem;
+  }
+}

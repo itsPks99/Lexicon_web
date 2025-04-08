@@ -1,0 +1,83 @@
+.cdt-wrapper {
+  padding: 60px 20px;
+  background: #f9fafc;
+}
+
+.cdt-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 60px 0;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cdt-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.cdt-text {
+  flex: 1;
+  min-width: 320px;
+}
+
+.cdt-text h2 {
+  font-size: 2.5rem;
+  color: #4d70b5;
+  margin-bottom: 15px;
+}
+
+.cdt-text p,
+.cdt-text ul {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.cdt-text ul {
+  padding-left: 1.2rem;
+}
+
+.cdt-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.cdt-image img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.cdt-cta {
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #4d70b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cdt-cta:hover {
+  background: #2d4d7d;
+}
+
+@media (max-width: 768px) {
+  .cdt-section,
+  .cdt-section.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cdt-text h2 {
+    font-size: 2rem;
+  }
+}

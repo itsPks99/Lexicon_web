@@ -52,12 +52,11 @@ const Menu = () => {
   };
 
   const services = [
-    { icon: <Network size={40} />, title: 'Networking Solution', path: '/services/networking' },
-    { icon: <Server size={40} />, title: 'IT Infrastructure Services', path: '/services/infrastructure' },
-    { icon: <Shield size={40} />, title: 'Security System', path: '/services/security' },
-    { icon: <Cog size={40} />, title: 'IT Integrate Solution', path: '/services/integration' },
-    { icon: <Tool size={40} />, title: 'AMC & Facility Management', path: '/services/amc' },
-    { icon: <Speaker size={40} />, title: 'Audio and Video Solution', path: '/services/av' }
+    { icon: <Network size={40} />, title: 'Network & IT Infrastructure Solutions', path: '/services/networking&iTSolution' },
+    { icon: <Server size={40} />, title: 'Advanced Security & Data Solutions', path: '/services/advancedSecurity&DataSolution' },
+    { icon: <Shield size={40} />, title: 'Managed IT Services & Support', path: '/services/managedIT&support' },
+    { icon: <Cog size={40} />, title: 'Cloud & Digital Transformation', path: '/services/cloud&DigitalTransformation' },
+    { icon: <Speaker size={40} />, title: 'Audio-Visual & Collaboration Services', path: '/services/audioVisualCollaboration' }
   ];
 
   return (

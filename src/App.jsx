@@ -8,11 +8,11 @@ import ContactPage from './pages/Contact/contact';
 import Careers from "./pages/Careers/career";
 
 // Service pages
-import NetworkingSolutions from './pages/Services/NetworkingSolutions/networkingSolutions';
-// Add more services as needed
- import InfrastructureServices from './pages/Services/ItInfrastructure/itInfrastructure';
- import SecuritySystem from './pages/Services/SecuritySystem/securitySystem';
-//  import IntegrateSolution from './pages/Services/ItIntegratedSolution/itIntegrateSolution.jsx';
+import NetworkingAndITSolutions from './pages/Services/NetworkingSolutions/networkingSolutions';
+import AdvancedSecurityDataSolutions from './pages/Services/AdvancedSecurityDataSolutions/AdvancedSecurity&DataSolutions.jsx';
+import CloudDigitalTransformation from './pages/Services/Cloud&DigitalTransformation/Cloud&DigitalTransformation.jsx';
+import ManagedITServices from './pages/Services/ManagedITServices&Support/ManagedIT.jsx';
+import AudioVisualCollaboration from './pages/Services/Audio-Visual&Collaboration/AudioVisualCollaboration.jsx';
 
 function App() {
   return (
@@ -26,10 +26,11 @@ function App() {
         <Route path="/career" element={<Careers />} />
 
         {/* 👇 Individual submenu routes under /services */}
-        <Route path="/services/networking" element={<NetworkingSolutions />} />
-        <Route path="/services/infrastructure" element={<InfrastructureServices />} />
-        <Route path="/services/security" element={<SecuritySystem />} /> 
-        {/* <Route path="/services/integration" element={<IntegrateSolution />} />  */}
+        <Route path="/services/networking&iTSolution" element={<NetworkingAndITSolutions />} />
+        <Route path="/services/advancedSecurity&DataSolution" element={<AdvancedSecurityDataSolutions />} />
+        <Route path="/services/cloud&DigitalTransformation" element={<CloudDigitalTransformation />} /> 
+        <Route path="/services/managedIT&support" element={<ManagedITServices />} /> 
+        <Route path="/services/audioVisualCollaboration" element={<AudioVisualCollaboration />} /> 
         
       </Routes>
       <Footer />

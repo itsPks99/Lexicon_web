@@ -1,56 +1,131 @@
+/* Main Networking Page Section */
 .networking-page {
-    padding: 100px 20px;
-    background: #f9fafc;
-  }
-  
-  .networking-container {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .networking-text {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .networking-text h1 {
-    font-size: 3rem;
-    color: #004080;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .networking-text p {
-    font-size: 1.2rem;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  .networking-image {
-    flex: 1;
-    padding: 20px;
+  /* padding: 100px 20px; */
+  background: #f9fafc;
+}
+
+.networking-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.networking-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.networking-text h1 {
+  font-size: 3rem;
+  color: #004080;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.networking-text p {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.networking-image {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.networking-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* New Networking Content Sections (Half Image + Half Content) */
+.network-section {
+  display: flex;
+  align-items: center;
+  /* padding: 80px 20px; */
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.network-section.alt {
+  flex-direction: row-reverse;
+}
+
+.network-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.network-content h2 {
+  font-size: 2.5rem;
+  color: #004080;
+  margin-bottom: 15px;
+}
+
+.network-content p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+.network-image {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.network-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .networking-container,
+  .network-section,
+  .network-section.alt {
+    flex-direction: column;
     text-align: center;
   }
-  
-  .networking-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+
+  .networking-text h1,
+  .network-content h2 {
+    font-size: 2rem;
   }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .networking-container {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .networking-text h1 {
-      font-size: 2rem;
-    }
-  }
-  
+}
+
+
+.network-content ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.network-content ul li {
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4d70b5;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #2d4d7d;
+}
