@@ -3,6 +3,8 @@ import './contact.css';
 import ConnectWithUs from "../Home/ConnectWithUs/connectwithUs.jsx";
 import ContactBanner from './ContactBanner/contactBanner.jsx';
 
+
+
 const ContactPage = () => {
     return (
         <>
@@ -58,8 +60,6 @@ const ContactPage = () => {
 
                         </div>
                     </div>
-
-
 
                     <div className="contactPage__map">
                         <a

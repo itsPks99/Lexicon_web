@@ -85,10 +85,12 @@
 @media (max-width: 768px) {
     .contactPage__content {
         flex-direction: column;
+        align-items: center;
     }
     .contactPage__map {
        width: 347px;
     }
+    
 }
 
 

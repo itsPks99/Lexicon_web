@@ -81,6 +81,21 @@ const ContactBanner = () => {
       );
     }
   }, []);
+
+  const scrollToConnect = () => {
+    console.log("Scrolling to connect section");
+    // Scroll to the connect section smoothly
+    
+    const section = document.querySelector('.connect-section');
+    if(!section){
+      console.log("Section not found");
+      
+    }
+    if (section) {
+
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   
   return (
     <div className="contactBanner">
@@ -104,7 +119,7 @@ const ContactBanner = () => {
       <h2 className="contactBanner-subtitle" ref={subtitleRef}>
         Have a question or need IT support? Our team is here to help. Let's work together to build reliable and scalable technology solutions for your business.
       </h2>
-      <Link to="/contact#form" className="contactBanner-cta" ref={buttonRef}>
+      <Link to="/contact#form" onClick={scrollToConnect} className="contactBanner-cta" ref={buttonRef}>
         Get in Touch
       </Link>
     </div>

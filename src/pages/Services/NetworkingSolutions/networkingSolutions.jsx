@@ -5,6 +5,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link } from "react-router-dom";
 import NetworkBanner from "./networkBanner";
 
+
+
 gsap.registerPlugin(ScrollTrigger);
 
 const NetworkingSolutions = () => {
@@ -106,6 +108,8 @@ const NetworkingSolutions = () => {
     });
   }, []);
 
+ 
+
   return (
     <>
       <NetworkBanner />
@@ -114,12 +118,12 @@ const NetworkingSolutions = () => {
           <div className="networking-text">
             <h1 ref={titleRef}>Overview</h1>
             <p ref={descRef}>
-              A strong and <strong>reliable IT infrastructure</strong> is the backbone of any modern business. At <strong>Lexicon Computers</strong>, we provide <strong>tailored networking and IT infrastructure solutions</strong> to ensure <strong>seamless connectivity, high-speed data transfers, and secure communication</strong> across your organization.
+              A strong and reliable IT infrastructure is the backbone of any modern business. At Lexicon Computers, we provide tailored networking and IT infrastructure solutions to ensure seamless connectivity, high-speed data transfers, and secure communication across your organization.
             </p>
             <br />
             <br />
             <p ref={descRef}>
-              Our <strong>end-to-end IT solutions</strong> go beyond just networking. We offer <strong>comprehensive IT setups</strong>, including <strong>CCTV surveillance systems, WiFi networks, access control systems</strong>, and <strong>structured cabling</strong>. Whether you're <strong>setting up a new IT framework</strong> or <strong>upgrading existing systems</strong>, we ensure that your business <strong>runs on a secure, scalable, and efficient infrastructure</strong> designed to support growth and innovation.
+              Our end-to-end IT solutions go beyond just networking. We offer comprehensive IT setups, including CCTV surveillance systems, WiFi networks, access control systems, and structured cabling. Whether you're setting up a new IT framework or upgrading existing systems, we ensure that your business runs on a secure, scalable, and efficient infrastructure designed to support growth and innovation.
             </p>
           </div>
           <div className="networking-image" ref={imageRef}>
@@ -136,12 +140,12 @@ const NetworkingSolutions = () => {
         <div className="network-content">
           <h2>Key Features & Benefits</h2>
           <ul>
-            <li>✅ <strong>High-Speed Network Deployment</strong> – Ensuring reliable, secure, and low-latency connectivity.</li>
-            <li>✅ <strong>Custom IT Infrastructure Design</strong> – Tailored solutions for business scalability and performance.</li>
-            <li>✅ <strong>Seamless System Integration</strong> – Interoperability with existing and new IT systems.</li>
-            <li>✅ <strong>End-to-End IT Solutions</strong> – Including CCTV surveillance, enterprise-grade WiFi, access control, and structured cabling.</li>
-            <li>✅ <strong>Redundant & Resilient Network Architecture</strong> – Minimizes downtime and enhances reliability.</li>
-            <li>✅ <strong>Future-Ready Infrastructure</strong> – Designed to support AI, IoT, and digital transformation initiatives.</li>
+            <li> High-Speed Network Deployment – Ensuring reliable, secure, and low-latency connectivity.</li>
+            <li> Custom IT Infrastructure Design – Tailored solutions for business scalability and performance.</li>
+            <li> Seamless System Integration – Interoperability with existing and new IT systems.</li>
+            <li> End-to-End IT Solutions – Including CCTV surveillance, enterprise-grade WiFi, access control, and structured cabling.</li>
+            <li> Redundant & Resilient Network Architecture – Minimizes downtime and enhances reliability.</li>
+            <li> Future-Ready Infrastructure – Designed to support AI, IoT, and digital transformation initiatives.</li>
           </ul>
         </div>
       </section>
@@ -154,9 +158,9 @@ const NetworkingSolutions = () => {
         <div className="network-content">
           <h2>Why Choose Us?</h2>
           <ul>
-            <li>🏆 <strong>20+ Years of Industry Experience</strong></li>
-            <li>🔧 <strong>Comprehensive IT Infrastructure Management</strong></li>
-            <li>💡 <strong>Tailored Solutions for Your Business Needs</strong></li>
+            <li> 20+ Years of Industry Experience</li>
+            <li> Comprehensive IT Infrastructure Management</li>
+            <li> Tailored Solutions for Your Business Needs</li>
           </ul>
         </div>
       </section>
@@ -169,7 +173,7 @@ const NetworkingSolutions = () => {
         <div className="network-content">
           <h2>Upgrade Your IT Infrastructure Today!</h2>
           <p>Contact Lexicon Computers and take the next step toward modern, secure, and scalable technology.</p>
-          <Link to="/contact#form" className="cta-button">Contact Us</Link>
+          <Link className="cta-button" >Contact Us</Link>
         </div>
       </section>
     </>
