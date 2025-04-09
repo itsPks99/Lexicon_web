@@ -87,7 +87,7 @@ const CareerPage = () => {
         </section>
 
         {/* Section - Life at Lexicon */}
-        <section className="career-life-section fade-in">
+        {/* <section className="career-life-section fade-in">
           <div className="life-content">
             <div className="life-text">
               <h2>Life at Lexicon</h2>
@@ -103,7 +103,7 @@ const CareerPage = () => {
               <img src="/assets/lifeatLexicon.jpg.png" alt="Team Collaboration" />
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
 
       {/* <ConnectWithUs /> */}

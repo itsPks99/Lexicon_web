@@ -96,7 +96,7 @@ const CloudDigitalTransformationBanner = () => {
     Your browser does not support the video tag.
   </video>
 
-  <div className="CloudDigitalTransformationBanner-overlay">
+  {/* <div className="CloudDigitalTransformationBanner-overlay">
     <div className="CloudDigitalTransformationBanner-content">
       <h1 className="CloudDigitalTransformationBanner-title" ref={titleRef} style={{ color: "white" }}>
        Transform Your Business with Scalable Cloud Solutions
@@ -108,7 +108,7 @@ const CloudDigitalTransformationBanner = () => {
        Migrate to the Cloud Today
       </Link>
     </div>
-  </div>
+  </div> */}
 </div>
 
   );

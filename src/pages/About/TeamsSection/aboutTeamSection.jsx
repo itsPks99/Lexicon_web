@@ -49,7 +49,7 @@ const AboutTeamSection = () => {
     // }, []);
     return (
         <div className="aboutTeamSection">
-            <h1 className="aboutTeamSection__heading">MEET THE DIRECTORS</h1>
+            <h1 className="aboutTeamSection__heading">Meet the Directors</h1>
 
             {/* Section 1 */}
             <div className="aboutTeamSection__block" ref={section1Ref}>

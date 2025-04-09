@@ -58,11 +58,11 @@ const AudioVisualCollaboration = () => {
           <div className="av-content">
             <h2>Overview</h2>
             <p>
-              <strong>Effective communication</strong> is the backbone of any modern business. Our <strong>cutting-edge audio-visual (AV) and collaboration solutions</strong> enable seamless interactions in <strong>corporate environments, conference rooms, training centers,</strong> and <strong>content creation spaces</strong>.
+              Effective communication is the backbone of any modern business. Our cutting-edge audio-visual (AV) and collaboration solutions enable seamless interactions in corporate environments, conference rooms, training centers, and content creation spaces.
             </p>
             <p>
-              We specialize in designing and implementing <strong>high-quality AV systems</strong> that enhance business presentations, <strong>remote collaboration tools</strong> that ensure smooth virtual meetings, and <strong>interactive digital experiences</strong> that drive engagement.
-              Whether you need <strong>customized AV installations</strong>, <strong>professional podcasting setups</strong>, or <strong>immersive AI-driven virtual experience centers</strong>, we offer tailored solutions to meet your unique business needs.
+              We specialize in designing and implementing high-quality AV systems that enhance business presentations, remote collaboration tools that ensure smooth virtual meetings, and interactive digital experiences that drive engagement.
+              Whether you need customized AV installations, professional podcasting setups, or immersive AI-driven virtual experience centers, we offer tailored solutions to meet your unique business needs.
             </p>
           </div>
         </section>
@@ -75,12 +75,12 @@ const AudioVisualCollaboration = () => {
           <div className="av-content">
             <h2>Key Features & Benefits</h2>
             <ul>
-              <li>✅ <strong>Professional AV Installations</strong> – High-quality audio and video systems for boardrooms, auditoriums, and event spaces.</li>
-              <li>✅ <strong>Seamless Video Conferencing</strong> – Advanced video and audio integration for crystal-clear communication.</li>
-              <li>✅ <strong>Podcasting & Content Creation Solutions</strong> – Industry-leading tools for producing engaging digital content.</li>
-              <li>✅ <strong>Virtual/AI Experience Center</strong> – Immersive AI-driven environments for training, presentations, and customer engagement.</li>
-              <li>✅ <strong>Customizable AV Systems</strong> – Tailored solutions to fit diverse business needs and spatial requirements.</li>
-              <li>✅ <strong>Integrated Collaboration Platforms</strong> – Smart meeting room solutions, interactive displays, and unified communication tools.</li>
+              <li> Professional AV Installations – High-quality audio and video systems for boardrooms, auditoriums, and event spaces.</li>
+              <li> Seamless Video Conferencing – Advanced video and audio integration for crystal-clear communication.</li>
+              <li> Podcasting & Content Creation Solutions – Industry-leading tools for producing engaging digital content.</li>
+              <li> Virtual/AI Experience Center – Immersive AI-driven environments for training, presentations, and customer engagement.</li>
+              <li> Customizable AV Systems – Tailored solutions to fit diverse business needs and spatial requirements.</li>
+              <li> Integrated Collaboration Platforms – Smart meeting room solutions, interactive displays, and unified communication tools.</li>
             </ul>
           </div>
         </section>
@@ -93,11 +93,11 @@ const AudioVisualCollaboration = () => {
           <div className="av-content">
             <h2>Why Choose Us?</h2>
             <ul>
-              <li>🎤 <strong>Industry-Leading AV Solutions</strong></li>
-              <li>🌐 <strong>Scalable for Businesses of All Sizes</strong></li>
-              <li>🎬 <strong>Expert AV Consulting & Installation</strong></li>
+              <li> Industry-Leading AV Solutions</li>
+              <li> Scalable for Businesses of All Sizes</li>
+              <li> Expert AV Consulting & Installation</li>
             </ul>
-            <Link  to="/contact#form" className="cta-button">🚀 Enhance Your Business Communication – Get a Quote Now!</Link>
+            <Link  to="/contact#form" className="cta-button"> Enhance Your Business Communication – Get a Quote Now!</Link>
           </div>
         </section>
       </div>

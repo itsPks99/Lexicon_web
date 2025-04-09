@@ -43,7 +43,7 @@
   
   .stat-card p {
     color: #333;
-    font-size: 0.95rem;
+    font-size: 18px;
     max-width: 160px;
     text-align: center;
     line-height: 1.4;
@@ -62,7 +62,7 @@
   
   @media (max-width: 768px) {
     .stat-card h3 {
-      font-size: 2rem;
+      font-size: 20px;
     }
   
     .stat-card p {

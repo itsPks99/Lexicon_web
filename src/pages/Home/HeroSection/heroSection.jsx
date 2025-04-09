@@ -12,51 +12,51 @@ export default function HeroSection() {
     { 
       id: 1, 
       prefixColor: "#ff5733", 
-      title: "IT Integrated Solutions", 
+      title: "Network & IT Infrastructure Solutions", 
       description: "“Technology isn’t just built it’s connected. Integration is where transformation begins.”",
       image: "/assets/hero_1.webp", 
-      link: "/services/integrated-solutions" 
+      link: "/services/networking&iTSolution" 
     },
     { 
       id: 2, 
       prefixColor: "#33a1ff", 
-      title: "Smart IT Infrastructure", 
+      title: "Advanced Security & Data Solutions", 
       description: "“Behind every great system is an infrastructure you never have to worry about.”",
       image: "/assets/hero_2.webp", 
-      link: "/services/it-infrastructure" 
+      link: "/services/advancedSecurity&DataSolution" 
     },
     { 
       id: 3, 
       prefixColor: "#28a745", 
-      title: "IT Enabled Services", 
+      title: "Managed IT Services & Support", 
       description: "“Support that runs quietly in the background until it’s time to lead.”",
       image: "/assets/hero_3.webp", 
-      link: "/services/enabled-services" 
+      link: "/services/managedIT&support" 
     },
     { 
       id: 4, 
       prefixColor: "#ff33ff", 
-      title: "IT Smart Solutions", 
+      title: "Cloud & Digital Transformation", 
       description: "“Whether in the cloud or on the ground your data stays where it belongs.”",
       image: "/assets/hero_4.webp", 
-      link: "/services/data-solutions" 
+      link: "/services/cloud&DigitalTransformation" 
     },
     { 
       id: 5, 
       prefixColor: "#ffcc00", 
-      title: "Advanced Security Solutions", 
+      title: "Audio-Visual & Collaboration Services", 
       description: "“Real security doesn’t shout. It protects silently, constantly, relentlessly.”",
       image: "/assets/hero_5.webp", 
-      link: "/services/security-solutions" 
+      link: "/services/audioVisualCollaboration" 
     },
-    { 
-      id: 6, 
-      prefixColor: "#6633ff", 
-      title: "Software Services", 
-      description: "“Great software doesn’t just solve problems it understands them first.”",
-      image: "/assets/hero_6.webp", 
-      link: "/services/software-services" 
-    }
+    // { 
+    //   id: 6, 
+    //   prefixColor: "#6633ff", 
+    //   title: "Software Services", 
+    //   description: "“Great software doesn’t just solve problems it understands them first.”",
+    //   image: "/assets/hero_6.webp", 
+    //   link: "/services/software-services" 
+    // }
   ]
 
   const [currentSlide, setCurrentSlide] = useState(0)

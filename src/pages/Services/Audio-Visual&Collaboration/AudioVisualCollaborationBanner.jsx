@@ -96,7 +96,7 @@ const AudioVisualCollaborationBanner = () => {
     Your browser does not support the video tag.
   </video>
 
-  <div className="AudioVisualCollaborationBanner-overlay">
+  {/* <div className="AudioVisualCollaborationBanner-overlay">
     <div className="AudioVisualCollaborationBanner-content">
       <h1 className="AudioVisualCollaborationBanner-title" ref={titleRef} style={{ color: "white" }}>
         Enhancing Communication with Premium AV & Collaboration Tools
@@ -108,7 +108,7 @@ const AudioVisualCollaborationBanner = () => {
       Upgrade Your AV Experience
       </Link>
     </div>
-  </div>
+  </div> */}
 </div>
 
   );

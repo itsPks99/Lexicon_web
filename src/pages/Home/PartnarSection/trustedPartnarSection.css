@@ -33,11 +33,10 @@
 }
 
 .trustedClient_title {
-  font-size: 42px;
+  font-size: 48px;
   font-weight: 700;
   margin: 0;
   color: #4d70b5;
-  text-transform: uppercase;
 }
 
 .trustedClient_subtitle {
@@ -116,7 +115,7 @@
 
 @media (max-width: 992px) {
   .trustedClient_title {
-    font-size: 36px;
+    font-size: 42px;
   }
 
   .trustedClient_subtitle {
@@ -137,7 +136,7 @@
   }
 
   .trustedClient_title {
-    font-size: 32px;
+    font-size: 38px;
   }
 
   .trustedClient_subtitle {
@@ -164,7 +163,7 @@
   }
 
   .trustedClient_title {
-    font-size: 28px;
+    font-size: 34px;
   }
 
   .trustedClient_subtitle {
@@ -187,7 +186,7 @@
 
 @media (max-width: 480px) {
   .trustedClient_title {
-    font-size: 24px;
+    font-size: 32px;
   }
 
   .trustedClient_subtitle {

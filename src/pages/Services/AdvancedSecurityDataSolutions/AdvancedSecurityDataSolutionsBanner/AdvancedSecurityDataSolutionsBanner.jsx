@@ -96,7 +96,7 @@ const Advancedsecuritydatasolution = () => {
     Your browser does not support the video tag.
   </video>
 
-  <div className="advancedsecuritydatasolution-overlay">
+  {/* <div className="advancedsecuritydatasolution-overlay">
     <div className="advancedsecuritydatasolution-content">
       <h1 className="advancedsecuritydatasolution-title" ref={titleRef} style={{ color: "white" }}>
        Fortifying Your Business with Advanced Security Solutions
@@ -108,7 +108,7 @@ const Advancedsecuritydatasolution = () => {
       Secure Your Business Now
       </Link>
     </div>
-  </div>
+  </div> */}
 </div>
 
   );

@@ -95,7 +95,7 @@ const AboutBanner = () => {
       <source src="/assets/AboutVideo.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
-      <div className="aboutBanner-overlay">
+      {/* <div className="aboutBanner-overlay">
         <div className="aboutBanner-content">
           <h1 className="aboutBanner-title" ref={titleRef} style={{color: "white"}}>
            
@@ -108,7 +108,7 @@ const AboutBanner = () => {
         <Link to="/contact#form" className="aboutBanner-cta" ref={buttonRef}>
             Discover Our Story
           </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

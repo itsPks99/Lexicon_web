@@ -47,19 +47,19 @@ const CloudDigitalTransformation = () => {
           <div className="cdt-text">
             <h2>Overview</h2>
             <p>
-              The transition to <strong>cloud computing</strong> is no longer an option but a <strong>necessity</strong> for businesses that aim to <strong>stay ahead of the curve</strong>. At <strong>Lexicon Computers</strong>, we help companies <strong>adopt, integrate, and optimize cloud solutions</strong> for improved <strong>scalability, collaboration, and security</strong>.
+              The transition to cloud computing is no longer an option but a necessity for businesses that aim to stay ahead of the curve. At Lexicon Computers, we help companies adopt, integrate, and optimize cloud solutions for improved scalability, collaboration, and security.
             </p>
             <p>
-              Whether you're <strong>migrating from traditional servers</strong>, implementing a <strong>hybrid cloud strategy</strong>, or enhancing existing <strong>cloud infrastructure</strong>, our cloud experts provide:
+              Whether you're migrating from traditional servers, implementing a hybrid cloud strategy, or enhancing existing cloud infrastructure, our cloud experts provide:
             </p>
             <ul>
-              <li>✅ <strong>Seamless cloud migration</strong></li>
-              <li>✅ <strong>Scalable storage solutions</strong></li>
-              <li>✅ <strong>Disaster recovery planning</strong></li>
-              <li>✅ <strong>Advanced cloud security enhancements</strong></li>
+              <li> Seamless cloud migration</li>
+              <li> Scalable storage solutions</li>
+              <li> Disaster recovery planning</li>
+              <li> Advanced cloud security enhancements</li>
             </ul>
             <p>
-              Our <strong>digital transformation services</strong> go beyond migration—we focus on <strong>automating business processes</strong>, leveraging <strong>AI-powered analytics</strong>, and <strong>integrating next-gen technologies</strong> to enhance <strong>operational efficiency</strong> and <strong>decision-making</strong>.
+              Our digital transformation services go beyond migration—we focus on automating business processes, leveraging AI-powered analytics, and integrating next-gen technologies to enhance operational efficiency and decision-making.
             </p>
           </div>
         </section>
@@ -69,12 +69,12 @@ const CloudDigitalTransformation = () => {
           <div className="cdt-text">
             <h2>Key Features & Benefits</h2>
             <ul>
-              <li>✅ <strong>Cloud Migration & Integration</strong> – Secure, smooth, and efficient transition to the cloud.</li>
-              <li>✅ <strong>Hybrid & Multi-Cloud Solutions</strong> – Flexible on-premises and cloud deployment strategies.</li>
-              <li>✅ <strong>Enhanced Collaboration Tools</strong> – Cloud-based applications for seamless teamwork and remote access.</li>
-              <li>✅ <strong>Serverless Computing & DevOps Support</strong> – Faster application development and deployment.</li>
-              <li>✅ <strong>Cloud Performance Monitoring & Optimization</strong> – Ensure maximum uptime and efficiency.</li>
-              <li>✅ <strong>SaaS, PaaS & IaaS Solutions</strong> – Leverage the right cloud model for your business needs.</li>
+              <li> Cloud Migration & Integration – Secure, smooth, and efficient transition to the cloud.</li>
+              <li> Hybrid & Multi-Cloud Solutions – Flexible on-premises and cloud deployment strategies.</li>
+              <li> Enhanced Collaboration Tools – Cloud-based applications for seamless teamwork and remote access.</li>
+              <li> Serverless Computing & DevOps Support – Faster application development and deployment.</li>
+              <li> Cloud Performance Monitoring & Optimization – Ensure maximum uptime and efficiency.</li>
+              <li> SaaS, PaaS & IaaS Solutions – Leverage the right cloud model for your business needs.</li>
             </ul>
           </div>
           <div className="cdt-image">
@@ -90,11 +90,11 @@ const CloudDigitalTransformation = () => {
           <div className="cdt-text">
             <h2>Why Choose Us?</h2>
             <ul>
-              <li>🚀 <strong>Expertise in Leading Cloud Platforms</strong> (AWS, Azure, Google Cloud)</li>
-              <li>🌎 <strong>Global-Scale Cloud Deployments with Tailored Solutions</strong></li>
-              <li>💼 <strong>Secure & Compliant Cloud Solutions to Meet Industry Standards</strong></li>
+              <li> Expertise in Leading Cloud Platforms (AWS, Azure, Google Cloud)</li>
+              <li> Global-Scale Cloud Deployments with Tailored Solutions</li>
+              <li> Secure & Compliant Cloud Solutions to Meet Industry Standards</li>
             </ul>
-            <Link to="/contact#form" className="cdt-cta">🚀 Take Your Business to the Cloud – Contact Us Now!</Link>
+            <Link to="/contact#form" className="cdt-cta"> Take Your Business to the Cloud – Contact Us Now!</Link>
           </div>
         </section>
       </div>

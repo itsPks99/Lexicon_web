@@ -49,7 +49,7 @@
 
 /* Description Paragraph Styling */
 .slide-description {
-    font-size: 1.2rem;
+    font-size: 18px;
     margin-bottom: 25px;
     max-width: 800px;
     line-height: 1.1;
@@ -103,7 +103,7 @@
     }
 
     .slide-description {
-        font-size: 1rem;
+        font-size: 16px;
         line-height: 1;
     }
 }

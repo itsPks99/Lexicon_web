@@ -67,15 +67,15 @@ const AdvancedSecurityDataSolutions = () => {
           <div className="asd-text">
             <h2>Overview</h2>
             <p>
-              With increasing <strong>cybersecurity threats</strong>, businesses are more vulnerable than ever to data breaches,
-              ransomware attacks, and unauthorized access. Our <strong>advanced security and data protection solutions</strong> ensure that your
-              critical business information remains secure through a combination of <strong>cutting-edge firewall protection, encryption,
-              real-time threat detection,</strong> and <strong>data backup solutions.</strong>
+              With increasing cybersecurity threats, businesses are more vulnerable than ever to data breaches,
+              ransomware attacks, and unauthorized access. Our advanced security and data protection solutions ensure that your
+              critical business information remains secure through a combination of cutting-edge firewall protection, encryption,
+              real-time threat detection, and data backup solutions.
             </p>
             <p>
-              We provide <strong>customized security strategies</strong> tailored to your business needs, ensuring <strong>compliance with industry
-              regulations</strong> while mitigating potential risks. Whether you're looking to secure your <strong>cloud environment,
-              on-premises network,</strong> or <strong>hybrid IT setup</strong>, we deliver <strong>end-to-end security solutions</strong> to safeguard
+              We provide customized security strategies tailored to your business needs, ensuring compliance with industry
+              regulations while mitigating potential risks. Whether you're looking to secure your cloud environment,
+              on-premises network, or hybrid IT setup, we deliver end-to-end security solutions to safeguard
               your digital assets.
             </p>
           </div>
@@ -86,13 +86,13 @@ const AdvancedSecurityDataSolutions = () => {
           <div className="asd-text">
             <h2>Key Features & Benefits</h2>
             <ul>
-              <li><CheckCircle2 className="asd-icon" /> <strong>Data Encryption & Secure Storage</strong> – Protects sensitive business and customer information.</li>
-              <li><CheckCircle2 className="asd-icon" /> <strong>Advanced Threat Detection & Response</strong> – AI-powered security monitoring for real-time risk mitigation.</li>
-              <li><CheckCircle2 className="asd-icon" /> <strong>Disaster Recovery & Backup Solutions</strong> – Ensures business continuity with fast data restoration.</li>
-              <li><CheckCircle2 className="asd-icon" /> <strong>Compliance & Risk Management</strong> – Helps meet GDPR, ISO 27001, and other security standards.</li>
-              <li><CheckCircle2 className="asd-icon" /> <strong>Next-Gen Firewall & Endpoint Security</strong> – Multi-layered defense against cyber threats and malware.</li>
-              <li><CheckCircle2 className="asd-icon" /> <strong>Secure Cloud & Hybrid Infrastructure Protection</strong> – Safeguards cloud applications and data centers.</li>
-              <li><CheckCircle2 className="asd-icon" /> <strong>Email & Phishing Protection</strong> – AI-powered email filtering to prevent fraud and data breaches.</li>
+              <li> Data Encryption & Secure Storage – Protects sensitive business and customer information.</li>
+              <li> Advanced Threat Detection & Response – AI-powered security monitoring for real-time risk mitigation.</li>
+              <li> Disaster Recovery & Backup Solutions – Ensures business continuity with fast data restoration.</li>
+              <li> Compliance & Risk Management – Helps meet GDPR, ISO 27001, and other security standards.</li>
+              <li> Next-Gen Firewall & Endpoint Security – Multi-layered defense against cyber threats and malware.</li>
+              <li> Secure Cloud & Hybrid Infrastructure Protection – Safeguards cloud applications and data centers.</li>
+              <li> Email & Phishing Protection – AI-powered email filtering to prevent fraud and data breaches.</li>
             </ul>
           </div>
           <div className="asd-image">
@@ -108,11 +108,11 @@ const AdvancedSecurityDataSolutions = () => {
           <div className="asd-text">
             <h2>Why Choose Us?</h2>
             <ul>
-              <li><Lock className="asd-icon" /> <strong>Cutting-edge security solutions</strong> tailored for businesses.</li>
-              <li><Globe className="asd-icon" /> <strong>Trusted by top enterprises</strong> for data protection.</li>
-              <li><Phone className="asd-icon" /> <strong>24/7 Security Support & Monitoring</strong></li>
+              <li><Lock className="asd-icon" /> Cutting-edge security solutions tailored for businesses.</li>
+              <li><Globe className="asd-icon" /> Trusted by top enterprises for data protection.</li>
+              <li><Phone className="asd-icon" /> 24/7 Security Support & Monitoring</li>
             </ul>
-            <Link to="/contact#form" className="asd-button">🚀 Protect Your Data & Business – Contact Us Today!</Link>
+            <Link to="/contact#form" className="asd-button">Protect Your Data & Business – Contact Us Today!</Link>
           </div>
         </section>
       </div>

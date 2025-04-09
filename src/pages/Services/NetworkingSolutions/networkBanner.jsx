@@ -96,7 +96,7 @@ const networkBanner = () => {
     Your browser does not support the video tag.
   </video>
 
-  <div className="networkBanner-overlay">
+  {/* <div className="networkBanner-overlay">
     <div className="networkBanner-content">
       <h1 className="networkBanner-title" ref={titleRef} style={{ color: "white" }}>
       Seamless Connectivity, Scalable IT Infrastructure
@@ -108,7 +108,7 @@ const networkBanner = () => {
        Get a Free Consultation
       </Link>
     </div>
-  </div>
+  </div> */}
 </div>
 
   );

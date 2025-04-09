@@ -63,19 +63,19 @@ const ManagedIT = () => {
           <div className="managedit-content">
             <h2>Overview</h2>
             <p>
-              A <strong>well-managed IT environment</strong> is essential for ensuring operational
-              efficiency, minimizing downtime, and enhancing security. <strong>Lexicon
-              Computers</strong> offers <strong>comprehensive managed IT services</strong>, providing
+              A well-managed IT environment is essential for ensuring operational
+              efficiency, minimizing downtime, and enhancing security. Lexicon
+              Computers offers comprehensive managed IT services, providing
               businesses with proactive maintenance, real-time monitoring, and
               expert technical support.
             </p>
             <p>
-              Our services include <strong>IT infrastructure optimization</strong>, <strong>cybersecurity
-              management</strong>, <strong>cloud operations</strong>, and <strong>compliance assurance</strong> to help
+              Our services include IT infrastructure optimization, cybersecurity
+              management, cloud operations, and compliance assurance to help
               businesses stay competitive and secure in a rapidly evolving digital
-              landscape. Whether you need <strong>remote IT support</strong>, <strong>on-site assistance</strong>,
-              or a <strong>fully managed IT framework</strong>, we deliver <strong>cost-effective and
-              scalable solutions</strong> that align with your business objectives.
+              landscape. Whether you need remote IT support, on-site assistance,
+              or a fully managed IT framework, we deliver cost-effective and
+              scalable solutions that align with your business objectives.
             </p>
           </div>
           <div className="managedit-image">
@@ -89,24 +89,24 @@ const ManagedIT = () => {
             <h2>Key Features & Benefits</h2>
             <ul>
               <li>
-                ✅ <strong>Proactive IT Monitoring & Incident Management</strong> – Continuous
-                monitoring to detect and resolve issues before they impact operations.
+                Proactive IT Monitoring & Incident Management – Continuous
+                 monitoring to detect and resolve issues before they impact operations.
               </li>
               <li>
-                ✅ <strong>Scalable IT Solutions</strong> – Customizable service plans to meet business
-                growth and technology advancements.
+                Scalable IT Solutions – Customizable service plans to meet business
+                 growth and technology advancements.
               </li>
               <li>
-                ✅ <strong>Cloud & Infrastructure Support</strong> – Efficient management of cloud
+                Cloud & Infrastructure Support – Efficient management of cloud
                 environments, servers, and enterprise applications.
               </li>
               <li>
-                ✅ <strong>IT Asset & Lifecycle Management</strong> – Streamlined procurement,
-                deployment, and maintenance of IT assets.
+                IT Asset & Lifecycle Management – Streamlined procurement,
+                 deployment, and maintenance of IT assets.
               </li>
               <li>
-                ✅ <strong>Remote & On-Site Assistance</strong> – Flexible support models to address IT
-                issues anytime, anywhere.
+                Remote & On-Site Assistance – Flexible support models to address IT
+                 issues anytime, anywhere.
               </li>
             </ul>
           </div>
@@ -120,12 +120,12 @@ const ManagedIT = () => {
           <div className="managedit-content">
             <h2>Why Choose Us?</h2>
             <ul>
-              <li>🎯 <strong>99.9% Uptime Guarantee</strong></li>
-              <li>🤝 <strong>Dedicated IT Support Tailored to Your Business</strong></li>
-              <li>🔄 <strong>Scalable IT Solutions for Growing Companies</strong></li>
+              <li>99.9% Uptime Guarantee</li>
+              <li>Dedicated IT Support Tailored to Your Business</li>
+              <li>Scalable IT Solutions for Growing Companies</li>
             </ul>
             <Link className="managedit-cta" to="/contact#form">
-              🚀 Let’s Manage Your IT, So You Can Focus on Growth!
+              Let’s Manage Your IT, So You Can Focus on Growth!
             </Link>
           </div>
           <div className="managedit-image">

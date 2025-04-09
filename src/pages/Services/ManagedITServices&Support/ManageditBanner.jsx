@@ -96,7 +96,7 @@ const ManageditBanner = () => {
     Your browser does not support the video tag.
   </video>
 
-  <div className="ManageditBanner-overlay">
+  {/* <div className="ManageditBanner-overlay">
     <div className="ManageditBanner-content">
       <h1 className="ManageditBanner-title" ref={titleRef} style={{ color: "white" }}>
       Seamless Connectivity, Scalable IT Infrastructure
@@ -108,7 +108,7 @@ const ManageditBanner = () => {
        Get a Free Consultation
       </Link>
     </div>
-  </div>
+  </div> */}
 </div>
 
   );

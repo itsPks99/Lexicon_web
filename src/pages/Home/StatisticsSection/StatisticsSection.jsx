@@ -6,11 +6,10 @@ import './StatisticsSection.css';
 gsap.registerPlugin(ScrollTrigger);
 
 const statisticsData = [
-    { id: 1, value: 35, label: "Years of IT Industry Experience" },
-    { id: 2, value: 50, label: "OEM Technology Partners" },
-    { id: 3, value: 250, label: "Large IT Projects with partnarship" },
-    { id: 4, value: 900, label: "Crore INR Revenue *FY23-24" },
-    { id: 5, value: 250, label: "Certified Tech Experts Team " }
+    { id: 1, value: 25, label: "years of experience" },
+    { id: 2, value: 30, label: "OEM tech partners" },
+    { id: 3, value: 150, label: "large IT projects with partnerships" },
+    { id: 4, value: 75, label: "certified tech experts" }
 ];
 
 const StatisticsSection = () => {

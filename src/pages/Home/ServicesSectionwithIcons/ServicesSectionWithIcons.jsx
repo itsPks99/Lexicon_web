@@ -3,12 +3,12 @@ import './ServicesSectionWithIcons.css';
 import { Network, Server, Shield, Cog, PenTool, Speaker } from 'lucide-react';
 
 const services = [
-  { name: "Networking Solutions", icon: <Network size={40} color="white" />, link: "/services/networking" },
-  { name: "IT Infrastructure Services", icon: <Server size={40} color="white" />, link: "/services/infrastructure" },
-  { name: "Security System Services", icon: <Shield size={40} color="white" />, link: "/services/security" },
-  { name: "IT Integrate Solution", icon: <Cog size={40} color="white" />, link: "/services/integration" },
-  { name: "AMC & Facility Management", icon: <PenTool size={40} color="white" />, link: "/services/amc" },
-  { name: "Audio and Video Solution", icon: <Speaker size={40} color="white" />, link: "/services/av" }
+  { name: "Network & IT Infrastructure Solutions", icon: <Network size={40} color="white" />, link: "/services/networking&iTSolution" },
+  { name: "Advanced Security & Data Solutions", icon: <Server size={40} color="white" />, link: "/services/advancedSecurity&DataSolution" },
+  { name: "Managed IT Services & Support", icon: <Shield size={40} color="white" />, link: "/services/managedIT&support" },
+  { name: "Cloud & Digital Transformation", icon: <Cog size={40} color="white" />, link: "/services/cloud&DigitalTransformation" },
+  { name: "Audio-Visual & Collaboration Services", icon: <PenTool size={40} color="white" />, link: "/services/audioVisualCollaboration" },
+  // { name: "Audio-Visual & Collaboration Services", icon: <Speaker size={40} color="white" />, link: "/services/av" }
 ];
 
 const ServicesSectionWithIcons = () => {

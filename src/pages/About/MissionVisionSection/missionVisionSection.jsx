@@ -10,7 +10,7 @@ const missionVisionSection = () => {
           <img src="/assets/AboutImage1.png" alt="About" />
         </div>
         <div className="missionVisionSection-content">
-          <h1>ABOUT US</h1>
+          <h1>About Us</h1>
           <p>
           With over two decades of expertise in delivering robust IT infrastructure and solutions, 
           Lexicon Computers has established itself as a reliable technology partner for clients 
@@ -47,7 +47,7 @@ const missionVisionSection = () => {
       <section id="our-values" className="missionVisionSection-section missionVisionSection-split-background">
         
         <div className="missionVisionSection-content">
-          <h2>OUR VALUES</h2>
+          <h1>Our Values</h1>
           <p>
            At our core, we are committed to consistently walking the talk and delivering beyond expectations.
            We strive to be leaders, whether it’s our first attempt or a repeated effort, always pushing 
