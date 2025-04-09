@@ -56,7 +56,7 @@ const ConnectWithUs = () => {
   }, []);
 
   return (
-    <section className="connect-section" ref={sectionRef}>
+    <section  className="connect-section" ref={sectionRef}>
       <div className="connect-container">
         <h2 className="connect-title">Connect With Us</h2>
         <p className="connect-description">GET IN TOUCH</p>

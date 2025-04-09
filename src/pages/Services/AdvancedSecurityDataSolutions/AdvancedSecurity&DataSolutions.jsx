@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import { Link } from "react-router-dom";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { CheckCircle2, Lock, Globe, Phone } from "lucide-react";
 import './AdvancedSecurity&DataSolutions.css';
@@ -111,7 +112,7 @@ const AdvancedSecurityDataSolutions = () => {
               <li><Globe className="asd-icon" /> <strong>Trusted by top enterprises</strong> for data protection.</li>
               <li><Phone className="asd-icon" /> <strong>24/7 Security Support & Monitoring</strong></li>
             </ul>
-            <button className="asd-button">🚀 Protect Your Data & Business – Contact Us Today!</button>
+            <Link to="/contact#form" className="asd-button">🚀 Protect Your Data & Business – Contact Us Today!</Link>
           </div>
         </section>
       </div>

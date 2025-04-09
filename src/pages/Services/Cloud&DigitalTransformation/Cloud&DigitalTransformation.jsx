@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Cloud&DigitalTransformation.css";
 import { gsap } from "gsap";
+import { Link } from "react-router-dom";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import CloudBanner from "./Cloud&DigitalTransformationBanner/Cloud&DigitalTransformation";
 
@@ -93,7 +94,7 @@ const CloudDigitalTransformation = () => {
               <li>🌎 <strong>Global-Scale Cloud Deployments with Tailored Solutions</strong></li>
               <li>💼 <strong>Secure & Compliant Cloud Solutions to Meet Industry Standards</strong></li>
             </ul>
-            <button className="cdt-cta">🚀 Take Your Business to the Cloud – Contact Us Now!</button>
+            <Link to="/contact#form" className="cdt-cta">🚀 Take Your Business to the Cloud – Contact Us Now!</Link>
           </div>
         </section>
       </div>

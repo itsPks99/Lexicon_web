@@ -103,7 +103,9 @@ const ContactPage = () => {
                 </div>
             </section>
 
-            <ConnectWithUs />
+          <div id='form'>
+          <ConnectWithUs />
+          </div>
         </>
     );
 };

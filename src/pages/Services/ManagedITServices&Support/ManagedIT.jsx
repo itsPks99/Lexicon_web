@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./ManagedIT.css";
+import { Link } from "react-router-dom";
 import ManagedItBanner from "../ManagedITServices&Support/ManageditBanner.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -123,9 +124,9 @@ const ManagedIT = () => {
               <li>🤝 <strong>Dedicated IT Support Tailored to Your Business</strong></li>
               <li>🔄 <strong>Scalable IT Solutions for Growing Companies</strong></li>
             </ul>
-            <button className="managedit-cta">
+            <Link className="managedit-cta" to="/contact#form">
               🚀 Let’s Manage Your IT, So You Can Focus on Growth!
-            </button>
+            </Link>
           </div>
           <div className="managedit-image">
             <img src="/assets/managedit_whyus.png" alt="Why Choose Us" />

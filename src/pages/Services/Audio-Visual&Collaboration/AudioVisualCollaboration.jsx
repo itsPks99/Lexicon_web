@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './AudioVisualCollaboration.css';
+import { Link } from 'react-router-dom';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import AudioVisualCollaborationBanner from './AudioVisualCollaborationBanner';
@@ -96,7 +97,7 @@ const AudioVisualCollaboration = () => {
               <li>🌐 <strong>Scalable for Businesses of All Sizes</strong></li>
               <li>🎬 <strong>Expert AV Consulting & Installation</strong></li>
             </ul>
-            <button className="cta-button">🚀 Enhance Your Business Communication – Get a Quote Now!</button>
+            <Link  to="/contact#form" className="cta-button">🚀 Enhance Your Business Communication – Get a Quote Now!</Link>
           </div>
         </section>
       </div>

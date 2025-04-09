@@ -7,15 +7,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+ /* max-width: 1200px;*/
   margin: 50px auto;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.managedit-section.alt {
+/* .managedit-section.alt {
   flex-direction: row-reverse;
-}
+} */
 
 .managedit-content {
   flex: 1;
@@ -42,7 +42,7 @@
 }
 
 .managedit-content ul li::before {
-  content: "✔️";
+  content: "";
   margin-right: 8px;
   color: #4d70b5;
 }
@@ -78,7 +78,7 @@
 @media (max-width: 768px) {
   .managedit-section {
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .managedit-content h2 {

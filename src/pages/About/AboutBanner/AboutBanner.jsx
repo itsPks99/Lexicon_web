@@ -103,10 +103,11 @@ const AboutBanner = () => {
           <h2 className="aboutBanner-subtitle" ref={subtitleRef}>
           
           </h2>
-          <Link to="/contact#form" className="aboutBanner-cta" ref={buttonRef}>
+          
+        </div>
+        <Link to="/contact#form" className="aboutBanner-cta" ref={buttonRef}>
             Discover Our Story
           </Link>
-        </div>
       </div>
     </div>
   );

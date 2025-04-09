@@ -28,22 +28,44 @@
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
+  right: 35px;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:  flex-end; /* Changed from center */
   text-align: center;
 }
 
-/* Content Style */
-.aboutBanner-content{
+.aboutBanner-content {
+  margin-top: 38vh; /* 👈 Adjust this to push the content below the logo */
   color: white;
   padding: 0 20px;
-  position: relative;
+  position: relative; 
   max-width: 900px;
 }
+
+.aboutBanner-cta {
+  margin-bottom: 20px;
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: background-color 0.3s;
+  z-index: 2;
+}
+
+.aboutBanner-cta:hover {
+  background-color: #4d70b5;
+  color: white;
+}
+
 
 .animated-word {
   display: inline-block;
@@ -68,27 +90,7 @@
   margin-bottom: 30px;
 }
 
-/* CTA Button */
-.aboutBanner-cta {
-  margin-top: 215px;
-  display: inline-block;
-  padding: 5px 10px;
-  background-color:white;
-  color: black;
-  font-weight: 600;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 13px;
-  opacity: 0; /* Start hidden for animation */
-  transform: translateY(30px);
-  transition: background-color 0.3s;
-}
 
-.aboutBanner-cta:hover {
-  
-  color: white;
-  background-color: #4d70b5;
-}
 
 /* Responsive Adjustments */
 @media (max-width: 1024px) {
@@ -113,6 +115,10 @@
     font-size: 2.2rem;
   }
 
+  .aboutBanner-content {
+    margin-top: 42vh;
+  }
+
   .aboutBanner-subtitle {
     font-size: 1rem;
   }
@@ -129,9 +135,9 @@
   .aboutBanner-title {
     font-size: 1.8rem;
   }
-  /* .aboutBanner-cta{
-    margin-top: auto;
-  } */
+  .aboutBanner-content {
+    margin-top: 45vh;
+  }
 
   .aboutBanner-subtitle {
     font-size: 0.9rem;
