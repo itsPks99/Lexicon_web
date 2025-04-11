@@ -76,8 +76,8 @@ const CareerPage = () => {
             <label>Upload Resume (PDF, DOCX):</label>
             <input type="file" name="resume" accept=".pdf,.docx" required />
 
-            <input type="hidden" name="_redirect" value="http://localhost:5173//thank-you" />
-            <input type="hidden" name="_error" value="http://localhost:5173//error" />
+            <input type="hidden" name="_redirect" value="https://lexicon-web.vercel.app/career//thank-you" />
+            <input type="hidden" name="_error" value="https://lexicon-web.vercel.app/career//error" />
 
             <button type="submit">Submit Application</button>
           </form>
