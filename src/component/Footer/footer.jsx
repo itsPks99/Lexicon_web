@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './footer.css';
-import { Phone, Mail,MapPin, X } from 'lucide-react';
+import { Phone, Mail, MapPin, X } from 'lucide-react';
 import { gsap } from 'gsap';
 
 const Footer = () => {
@@ -51,10 +51,10 @@ const Footer = () => {
       <footer className="footer-section">
         <div className="footer-container">
           <div className="footer-item">
-            <Phone color="#4d70b5" size={30} /> 
+            <Phone color="#4d70b5" size={30} />
             <a href="tel:+919769878878">+91-22-49700111</a>
           </div>
-          
+
           <div className="footer-item">
             <Mail color="#4d70b5" size={30} />
             <div>
@@ -67,8 +67,8 @@ const Footer = () => {
             <MapPin color="#4d70b5" size={30} />
             <div>
               <p>Lexicon Computers Pvt. Ltd.</p>
-              <p> 24, Papa Industrial Estate,</p> 
-              <p> 3rd Floor,40, Suren Road,</p> 
+              <p> 24, Papa Industrial Estate,</p>
+              <p> 3rd Floor,40, Suren Road,</p>
               <p> Off Andheri-Kurla Road,</p>
               <p> Andheri (East), Mumbai-400093.</p>
             </div>
@@ -84,8 +84,8 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>
-            For Corporate Enquiries Call: 
-            <a href="tel:+919769878878">+91-22-49700111</a> | 
+            For Corporate Enquiries Call:
+            <a href="tel:+919769878878">+91-22-49700111</a> |
             <span className="request-demo" onClick={() => setShowPopup(true)}> Request A Demo</span>
             <br />©2025 Lexicon Computers Pvt. Ltd. All Rights Reserved.
           </p>
@@ -105,13 +105,23 @@ const Footer = () => {
               <X size={20} />
             </button>
             <h3>Request A Demo</h3>
-            <form>
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email" />
-              <input type="tel" placeholder="Phone" />
-              <textarea placeholder="Message"></textarea>
+            <form
+              action="https://usebasin.com/f/18f32ef0ba2c"
+              method="POST"
+              encType="multipart/form-data"
+            >
+              <input type="text" name="name" placeholder="Name" required />
+              <input type="email" name="email" placeholder="Email" required />
+              <input type="tel" name="phone" placeholder="Phone" required />
+              <textarea name="message" placeholder="Message" required></textarea>
+
+
+              <input type="hidden" name="_redirect" value="https://lexicon-web.vercel.app" />
+              <input type="hidden" name="_error" value="https://lexicon-web.vercel.app" />
+
               <button type="submit">Submit</button>
             </form>
+
           </div>
         )}
       </footer>

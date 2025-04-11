@@ -47,7 +47,7 @@ const CareerPage = () => {
           <div className="career-form-container" id="career-form">
             <h2>Apply for a Position</h2>
             <form
-            action="https://usebasin.com/f/69524152868b"
+            action="https://usebasin.com/f/2f92a056ce78"
             method="POST"
             encType="multipart/form-data"
             className="career-form"
@@ -76,8 +76,8 @@ const CareerPage = () => {
             <label>Upload Resume (PDF, DOCX):</label>
             <input type="file" name="resume" accept=".pdf,.docx" required />
 
-            <input type="hidden" name="_redirect" value="https://lexicon-web.vercel.app/career//thank-you" />
-            <input type="hidden" name="_error" value="https://lexicon-web.vercel.app/career//error" />
+            <input type="hidden" name="_redirect" value="https://lexicon-web.vercel.app/career/" />
+            <input type="hidden" name="_error" value="https://lexicon-web.vercel.app/career/" />
 
             <button type="submit">Submit Application</button>
           </form>

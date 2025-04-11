@@ -56,19 +56,51 @@ const ConnectWithUs = () => {
   }, []);
 
   return (
-    <section  className="connect-section" ref={sectionRef}>
+    <section className="connect-section" ref={sectionRef}>
       <div className="connect-container">
         <h2 className="connect-title">Connect With Us</h2>
         <p className="connect-description">GET IN TOUCH</p>
-        <form className="connect-form">
+        <form
+          action="https://usebasin.com/f/a4d465ca73d4"
+          method="POST"
+        >
           <div className="form-row">
-            <input type="text" placeholder="Name" className="connect-input" />
-            <input type="email" placeholder="Email" className="connect-input" />
-            <input type="tel" placeholder="Phone" className="connect-input" />
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              className="connect-input"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              className="connect-input"
+              required
+            />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone"
+              className="connect-input"
+              required
+            />
           </div>
-          <textarea placeholder="Message" className="connect-textarea"></textarea>
+          <textarea
+            name="message"
+            placeholder="Message"
+            className="connect-textarea"
+            required
+          ></textarea>
+
+          {/* Optional: custom redirect after submission */}
+          <input type="hidden" name="_redirect" value="https://lexicon-web.vercel.app/contact" />
+          <input type="hidden" name="_error" value="http://localhost:5173/error" />
+
           <button type="submit" className="connect-button">Send</button>
         </form>
+
       </div>
     </section>
   );
