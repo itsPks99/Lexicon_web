@@ -79,18 +79,20 @@ const ManagedIT = () => {
             </p>
           </div>
           <div className="managedit-image">
-            <img src="/assets/managedit_overview.png" alt="Managed IT Overview" />
+            <img src="/assets/servicepagethird1.png" alt="Managed IT Overview" />
           </div>
         </section>
 
         {/* Section 2 - Features */}
         <section className="managedit-section alt" ref={addToRefs}>
+        <div className="managedit-image">
+            <img src="/assets/servicepagethird2.png" alt="IT Features" />
+          </div>
           <div className="managedit-content">
             <h2>Key Features & Benefits</h2>
             <ul>
               <li>
-                Proactive IT Monitoring & Incident Management – Continuous
-                 monitoring to detect and resolve issues before they impact operations.
+                Proactive IT Monitoring & Incident Management – Continuous monitoring to detect and resolve issues before they impact operations.
               </li>
               <li>
                 Scalable IT Solutions – Customizable service plans to meet business
@@ -110,9 +112,7 @@ const ManagedIT = () => {
               </li>
             </ul>
           </div>
-          <div className="managedit-image">
-            <img src="/assets/managedit_features.png" alt="IT Features" />
-          </div>
+          
         </section>
 
         {/* Section 3 - Why Choose Us */}
@@ -129,7 +129,7 @@ const ManagedIT = () => {
             </Link>
           </div>
           <div className="managedit-image">
-            <img src="/assets/managedit_whyus.png" alt="Why Choose Us" />
+            <img src="/assets/servicepagethird3.png" alt="Why Choose Us" />
           </div>
         </section>
       </div>

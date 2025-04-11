@@ -21,7 +21,7 @@ const ContactPage = () => {
                             {/* Phone Number */}
                             <div className="contactPage__row">
                                 <span className="contactPage__icon">📞</span>
-                                <a href="tel:02249700111" className="contactPage__link">022 49700111</a>
+                                <a href="tel:02249700111" className="contactPage__link">+91-22-49700111</a>
                             </div>
 
                             {/* Website */}

@@ -53,7 +53,7 @@ const AudioVisualCollaboration = () => {
         {/* Overview */}
         <section className="av-section" ref={addToRefs}>
           <div className="av-image">
-            <img src="/assets/av_overview.png" alt="AV Overview" />
+            <img src="/assets/servicepagefiveth1.png" alt="AV Overview" />
           </div>
           <div className="av-content">
             <h2>Overview</h2>
@@ -70,7 +70,7 @@ const AudioVisualCollaboration = () => {
         {/* Key Features */}
         <section className="av-section alt" ref={addToRefs}>
           <div className="av-image">
-            <img src="/assets/av_features.png" alt="Key Features & Benefits" />
+            <img src="/assets/servicepagefiveth2.png" alt="Key Features & Benefits" />
           </div>
           <div className="av-content">
             <h2>Key Features & Benefits</h2>
@@ -88,7 +88,7 @@ const AudioVisualCollaboration = () => {
         {/* Why Choose Us */}
         <section className="av-section" ref={addToRefs}>
           <div className="av-image">
-            <img src="/assets/av_whyus.png" alt="Why Choose Us?" />
+            <img src="/assets/servicepagefiveth3.png" alt="Why Choose Us?" />
           </div>
           <div className="av-content">
             <h2>Why Choose Us?</h2>

@@ -82,6 +82,21 @@ const CareerBanner = () => {
      }
    }, []);
 
+   const scrollToCareer = () => {
+    console.log("Scrolling to connect section");
+    // Scroll to the connect section smoothly
+    
+    const section = document.querySelector('.career-form-section');
+    if(!section){
+      console.log("Section not found");
+      
+    }
+    if (section) {
+
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="careerBanner">
     {/* Background Video */}
@@ -105,7 +120,7 @@ const CareerBanner = () => {
           we empower talent, foster creativity, and build careers in the evolving tech 
           landscape.
           </h2>
-          <Link to="/contact#form" className="careerBanner-cta" ref={buttonRef}>
+          <Link to="/career#career-form"  onClick={scrollToCareer} className="careerBanner-cta" ref={buttonRef}>
             Explore Opportunities
           </Link>
         </div>

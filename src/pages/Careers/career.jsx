@@ -44,34 +44,43 @@ const CareerPage = () => {
 
         {/* Section - Application Form */}
         <section className="career-form-section fade-in">
-          <div className="career-form-container">
+          <div className="career-form-container" id="career-form">
             <h2>Apply for a Position</h2>
-            <form onSubmit={handleSubmit} className="career-form">
-              <select required className="career-dropdown">
-                <option value="">Select Position</option>
-                <option value="Network Engineer">Network Engineer</option>
-                <option value="IT Support Specialist">IT Support Specialist</option>
-                <option value="Cybersecurity Analyst">Cybersecurity Analyst</option>
-                <option value="Cloud Solutions Architect">Cloud Solutions Architect</option>
-                <option value="AV Technician">AV Technician</option>
-                <option value="Project Manager – IT Infrastructure">Project Manager – IT Infrastructure</option>
-                <option value="Sales & Business Development – IT Solutions">Sales & Business Development – IT Solutions</option>
-                <option value="UI/UX Designer">UI/UX Designer</option>
-                <option value="Software Developer">Software Developer</option>
-                <option value="Asset Management Engineer">Asset Management Engineer</option>
-                <option value="Back Office Executive">Back Office Executive</option>
-                <option value="Accounts Executive / Finance Associate">Accounts Executive / Finance Associate</option>
-                <option value="Operations Coordinator / Operations Executive">Operations Coordinator / Operations Executive</option>
-                <option value="Human Resources (HR) Executive / HR Manager">Human Resources (HR) Executive / HR Manager</option>
-              </select>
-              <input type="text" placeholder="Full Name" required />
-              <input type="email" placeholder="Email" required />
-              <input type="tel" placeholder="Phone Number" required />
-              <textarea placeholder="Why do you want to join us?" rows="5" required></textarea>
-              <label>Upload Resume (PDF, DOCX):</label>
-              <input type="file" accept=".pdf, .docx" onChange={handleResumeChange} required />
-              <button type="submit">Submit Application</button>
-            </form>
+            <form
+            action="https://usebasin.com/f/69524152868b"
+            method="POST"
+            encType="multipart/form-data"
+            className="career-form"
+          >
+            <select className="career-dropdown" name="position" required>
+              <option value="" >Select Position</option>
+              <option value="Network Engineer">Network Engineer</option>
+              <option value="IT Support Specialist">IT Support Specialist</option>
+              <option value="Cybersecurity Analyst">Cybersecurity Analyst</option>
+              <option value="Cloud Solutions Architect">Cloud Solutions Architect</option>
+              <option value="AV Technician">AV Technician</option>
+              <option value="Project Manager – IT Infrastructure">Project Manager – IT Infrastructure</option>
+              <option value="Sales & Business Development – IT Solutions">Sales & Business Development – IT Solutions</option>
+              <option value="UI/UX Designer">UI/UX Designer</option>
+              <option value="Software Developer">Software Developer</option>
+              <option value="Asset Management Engineer">Asset Management Engineer</option>
+              <option value="Back Office Executive">Back Office Executive</option>
+              <option value="Accounts Executive / Finance Associate">Accounts Executive / Finance Associate</option>
+              <option value="Operations Coordinator / Operations Executive">Operations Coordinator / Operations Executive</option>
+              <option value="Human Resources (HR) Executive / HR Manager">Human Resources (HR) Executive / HR Manager</option>
+            </select>
+            <input type="text" name="fullName" placeholder="Full Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="tel" name="phone" placeholder="Phone Number" required />
+            <textarea name="message" placeholder="Why do you want to join us?" rows="5" required></textarea>
+            <label>Upload Resume (PDF, DOCX):</label>
+            <input type="file" name="resume" accept=".pdf,.docx" required />
+
+            <input type="hidden" name="_redirect" value="http://localhost:5173//thank-you" />
+            <input type="hidden" name="_error" value="http://localhost:5173//error" />
+
+            <button type="submit">Submit Application</button>
+          </form>
           </div>
         </section>
 

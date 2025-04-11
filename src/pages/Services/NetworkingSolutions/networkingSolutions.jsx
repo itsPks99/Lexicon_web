@@ -127,7 +127,7 @@ const NetworkingSolutions = () => {
             </p>
           </div>
           <div className="networking-image" ref={imageRef}>
-            <img src="/assets/services_1.png" alt="Networking Overview" />
+            <img src="/assets/servicepagefirst1.png" alt="Networking Overview" />
           </div>
         </div>
       </section>
@@ -173,7 +173,7 @@ const NetworkingSolutions = () => {
         <div className="network-content">
           <h2>Upgrade Your IT Infrastructure Today!</h2>
           <p>Contact Lexicon Computers and take the next step toward modern, secure, and scalable technology.</p>
-          <Link className="cta-button" >Contact Us</Link>
+          <Link to = "/contact#form" className="cta-button" >Contact Us</Link>
         </div>
       </section>
     </>

@@ -62,7 +62,7 @@ const AdvancedSecurityDataSolutions = () => {
         {/* Overview */}
         <section className="asd-section" ref={addToRefs}>
           <div className="asd-image">
-            <img src="/assets/security-overview.png" alt="Security Overview" />
+            <img src="/assets/servicepagesecond1.png" alt="Security Overview" />
           </div>
           <div className="asd-text">
             <h2>Overview</h2>
@@ -83,6 +83,9 @@ const AdvancedSecurityDataSolutions = () => {
 
         {/* Key Features */}
         <section className="asd-section reverse" ref={addToRefs}>
+        <div className="asd-image">
+            <img src="/assets/servicepagesecond2.png" alt="Security Features" />
+          </div>
           <div className="asd-text">
             <h2>Key Features & Benefits</h2>
             <ul>
@@ -95,15 +98,13 @@ const AdvancedSecurityDataSolutions = () => {
               <li> Email & Phishing Protection – AI-powered email filtering to prevent fraud and data breaches.</li>
             </ul>
           </div>
-          <div className="asd-image">
-            <img src="/assets/security-features.png" alt="Security Features" />
-          </div>
+         
         </section>
 
         {/* Why Choose Us */}
         <section className="asd-section" ref={addToRefs}>
           <div className="asd-image">
-            <img src="/assets/security-whychoose.png" alt="Why Choose Us" />
+            <img src="/assets/servicepagesecond3.png" alt="Why Choose Us" />
           </div>
           <div className="asd-text">
             <h2>Why Choose Us?</h2>

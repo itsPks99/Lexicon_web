@@ -42,7 +42,7 @@ const CloudDigitalTransformation = () => {
         {/* Overview Section */}
         <section className="cdt-section" ref={addToRefs}>
           <div className="cdt-image">
-            <img src="/assets/cloud-overview.png" alt="Cloud Overview" />
+            <img src="/assets/servicepagefourth1.png" alt="Cloud Overview" />
           </div>
           <div className="cdt-text">
             <h2>Overview</h2>
@@ -66,6 +66,9 @@ const CloudDigitalTransformation = () => {
 
         {/* Key Features Section */}
         <section className="cdt-section reverse" ref={addToRefs}>
+        <div className="cdt-image">
+            <img src="/assets/servicepagefourth2.png" alt="Cloud Features" />
+          </div>
           <div className="cdt-text">
             <h2>Key Features & Benefits</h2>
             <ul>
@@ -77,15 +80,13 @@ const CloudDigitalTransformation = () => {
               <li> SaaS, PaaS & IaaS Solutions – Leverage the right cloud model for your business needs.</li>
             </ul>
           </div>
-          <div className="cdt-image">
-            <img src="/assets/cloud-features.png" alt="Cloud Features" />
-          </div>
+         
         </section>
 
         {/* Why Choose Us Section */}
         <section className="cdt-section" ref={addToRefs}>
           <div className="cdt-image">
-            <img src="/assets/cloud-whychoose.png" alt="Why Choose Lexicon" />
+            <img src="/assets/servicepagefourth3.png" alt="Why Choose Lexicon" />
           </div>
           <div className="cdt-text">
             <h2>Why Choose Us?</h2>

@@ -137,7 +137,7 @@ const OurServices2 = () => {
         </div>
         <div className="ourServices2__image" style={{ '--custom-img-height': '380px' }}>
           <img 
-            src="/assets/imagesforinnovation.png" 
+            src="/assets/homepageimages1.png" 
             alt="Innovative Digital Solutions" 
           />
         </div>
@@ -146,7 +146,7 @@ const OurServices2 = () => {
       <section className="ourServices2__container ourServices2__container-second">
         <div className="ourServices2__image" style={{ '--custom-img-height': '380px' }}>
           <img 
-            src="/assets/inagesforDigitalExcellence.png" 
+            src="/assets/homepageimages2.png" 
             alt="Digital Excellence Redefined" 
           />
         </div>
