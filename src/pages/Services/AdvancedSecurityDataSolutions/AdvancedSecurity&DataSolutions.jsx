@@ -109,9 +109,9 @@ const AdvancedSecurityDataSolutions = () => {
           <div className="asd-text">
             <h2>Why Choose Us?</h2>
             <ul>
-              <li><Lock className="asd-icon" /> Cutting-edge security solutions tailored for businesses.</li>
-              <li><Globe className="asd-icon" /> Trusted by top enterprises for data protection.</li>
-              <li><Phone className="asd-icon" /> 24/7 Security Support & Monitoring</li>
+              <li> Cutting-edge security solutions tailored for businesses.</li>
+              <li> Trusted by top enterprises for data protection.</li>
+              <li> 24/7 Security Support & Monitoring</li>
             </ul>
             <Link to="/contact#form" className="asd-button">Protect Your Data & Business – Contact Us Today!</Link>
           </div>

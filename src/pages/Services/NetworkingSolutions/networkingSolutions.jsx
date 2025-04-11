@@ -162,11 +162,12 @@ const NetworkingSolutions = () => {
             <li> Comprehensive IT Infrastructure Management</li>
             <li> Tailored Solutions for Your Business Needs</li>
           </ul>
+          <Link to = "/contact#form" className="cta-button" >Upgrade Your IT Infrastructure Today Contact Us</Link>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="network-section" ref={addToRefs}>
+      {/* <section className="network-section" ref={addToRefs}>
         <div className="network-image">
           <img src="/assets/WhyChoosUs.png" alt="CTA" style={{ height: "400px", width: "100%" }} />
         </div>
@@ -175,7 +176,7 @@ const NetworkingSolutions = () => {
           <p>Contact Lexicon Computers and take the next step toward modern, secure, and scalable technology.</p>
           <Link to = "/contact#form" className="cta-button" >Contact Us</Link>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
