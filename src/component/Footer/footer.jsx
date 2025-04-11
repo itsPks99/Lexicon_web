@@ -59,7 +59,7 @@ const Footer = () => {
             <Mail color="#4d70b5" size={30} />
             <div>
               {/* <p>www.lexiconindia.com</p> */}
-              <p>info@lexiconindia.com</p>
+              <a href="mailto:info@lexiconindia.com">info@lexiconindia.com</a>
             </div>
           </div>
 
