@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './menu.css';
-import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaBars, FaTimes, FaChevronDown } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaBars, FaTimes, FaChevronDown, FaInstagram } from 'react-icons/fa';
 import { MailIcon, PhoneCall, Network, Server, Shield, Cog, PenToolIcon as Tool, Speaker } from 'lucide-react';
 
 const Menu = () => {
@@ -63,10 +63,10 @@ const Menu = () => {
     <>
       <div className="top-bar">
         <div className="social-links">
-          <Link to="#"><FaFacebook /></Link>
-          <Link to="#"><FaTwitter /></Link>
-          <Link to="#"><FaLinkedin /></Link>
-          <Link to="#"><FaYoutube /></Link>
+          <Link to="https://www.facebook.com/profile.php?id=61574752152274"><FaFacebook /></Link>
+          <Link to="https://www.instagram.com/lexiconindia_com/"><FaInstagram /></Link>
+          <Link to="https://www.linkedin.com/company/8563715/admin/dashboard/"><FaLinkedin /></Link>
+          {/* <Link to="#"><FaYoutube /></Link> */}
         </div>
         <div className="contact-info">
           <a href="tel:+02249185900"><PhoneCall size={18} />+91-22-49700111</a>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './footer.css';
-import { Phone, Mail, User, X } from 'lucide-react';
+import { Phone, Mail,MapPin, X } from 'lucide-react';
 import { gsap } from 'gsap';
 
 const Footer = () => {
@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-item">
-            <User color="#4d70b5" size={30} />
+            <MapPin color="#4d70b5" size={30} />
             <div>
               <p>Lexicon Computers Pvt. Ltd.</p>
               <p> 24, Papa Industrial Estate,</p> 
@@ -104,7 +104,7 @@ const Footer = () => {
             <button className="close-button" onClick={() => setShowPopup(false)}>
               <X size={20} />
             </button>
-            <h2>Request A Demo</h2>
+            <h3>Request A Demo</h3>
             <form>
               <input type="text" placeholder="Name" />
               <input type="email" placeholder="Email" />

@@ -161,7 +161,7 @@ export default function HeroSection() {
           <div className="content">
             {/* <h2 style={{ color: slide.prefixColor }}>We Provide the</h2> */}
             <h1 className="slide-title"></h1>
-            <p className="slide-description">{slide.description}</p>
+            <p className="slide-description" style={{textAlign:"center"}}>{slide.description}</p>
             <a href={slide.link} className="read-more-btn">Read More</a>
           </div>
         </div>
