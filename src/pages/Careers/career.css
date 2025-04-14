@@ -80,7 +80,7 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .career-banner-content h1 {
-        font-size: 2.5rem;
+        font-size: 36px;
     }
 
     .career-banner-content p {
@@ -92,7 +92,7 @@
     }
     
     .career-why-join-section h2 {
-        font-size: 40px;
+        font-size: 25px;
     }
 
     .career-why-join-section p {

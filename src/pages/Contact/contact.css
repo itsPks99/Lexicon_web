@@ -91,6 +91,9 @@
     .contactPage__map {
        width: 347px;
     }
+    .contactPage__heading {
+        font-size: 20px;
+    }
     
 }
 
@@ -154,15 +157,17 @@
       flex-direction: column;
       text-align: center;
     }
+    .panIndia__section {
+      padding: 0px 20px;
+    }
+    .panIndia__title {
+      font-size: 20px;
+    }
   
     .panIndia__map img {
       max-width: 90%;
       margin: 0 auto 20px;
       /* height: 394px; */
-    }
-  
-    .panIndia__title {
-      font-size: 42px;
     }
   
     .panIndia__text {
