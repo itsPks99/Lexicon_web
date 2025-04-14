@@ -15,7 +15,7 @@ const ContactPage = () => {
                 <div className="contactPage__content">
 
                     <div className="contactPage__info">
-                        <h2 style={{textAlign:"center"}}>Contact</h2>
+                        <h2 style={{ textAlign: "center" }}>Contact</h2>
                         <div className="contactPage__details">
 
                             {/* Phone Number */}
@@ -63,18 +63,18 @@ const ContactPage = () => {
 
                     <div className="contactPage__map">
                         <a
-                            href="https://www.google.com/maps/place/Papa+Industrial+Estate,+Suren+Rd,+Andheri+East,+Mumbai,+Maharashtra+400093/@19.1115446,72.8597989,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c8107eb2f19d:0x2a648c7b79814de2!8m2!3d19.1115446!4d72.8597989!16s%2Fg%2F11b7h_zx7x"
-                            target="_blank"
+                            // href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1559.7707650739133!2d72.85529157809809!3d19.117088039746406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c832096f0c6b%3A0xed3f909fbc847a77!2s24%2C%20Suren%20Rd%2C%20Chakala%2C%20Gundavali%2C%20Andheri%20East%2C%20Mumbai%2C%20Maharashtra%20400093!5e0!3m2!1sen!2sin!4v1744620466343!5m2!1sen!2sin' target="_blank"
+                            href='#'
                             rel="noopener noreferrer"
                         >
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.599768334032!2d72.85979897497617!3d19.11154458209816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8107eb2f19d%3A0x2a648c7b79814de2!2sPapa%20Industrial%20Estate%2C%20Suren%20Rd%2C%20Andheri%20East%2C%20Mumbai%2C%20Maharashtra%20400093!5e0!3m2!1sen!2sin!4v1683548323354!5m2!1sen!2sin"
-                                width="100%"
+                                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d666.4094291624962!2d72.85515860089599!3d19.117260584691874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8397b13ee17%3A0x6cbaa15c75b5c01c!2sLexicon%20Computers%20Private%20Limited!5e0!3m2!1sen!2sin!4v1744621081747!5m2!1sen!2sin' width="100%"
                                 height="400"
                                 style={{ border: 0 }}
                                 allowFullScreen=""
                                 loading="lazy"
                                 title="Our Location"
+
                             ></iframe>
                         </a>
                     </div>
@@ -83,7 +83,7 @@ const ContactPage = () => {
 
             <section className="panIndia__section">
                 <div className="panIndia__wrapper">
-                   
+
 
                     {/* Right Side - Description */}
                     <div className="panIndia__content">
@@ -96,16 +96,16 @@ const ContactPage = () => {
                         </p>
                     </div>
 
-                     {/* Left Side - Map Image */}
-                     <div className="panIndia__map">
+                    {/* Left Side - Map Image */}
+                    <div className="panIndia__map">
                         <img src="/assets/indianMap.jpg" alt="Lexicon Offices Across India" />
                     </div>
                 </div>
             </section>
 
-          <div id='form'>
-          <ConnectWithUs />
-          </div>
+            <div id='form'>
+                <ConnectWithUs />
+            </div>
         </>
     );
 };
